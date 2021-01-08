@@ -4,7 +4,7 @@ This Guide written in Jan 2021, and is meant to be used on a fresh install of th
 
 I love RetroArch more than any other Raspberry Pi retro solution, so I thought it would be nice to have a very focused document about installing RetroArch and some descriptions to help someone to understand how it all works more.
 
-##Reasons to use this over other solutions:
+## Reasons to use this over other solutions:
 1 GUI to learn, just RetroArch XMB.  
 Auto run commands on boot
 Edit config files using a keyboard and mouse instead of having to connect through your wifi.
@@ -54,7 +54,7 @@ Click OK, when done, and you will now be asked to reboot or you can type this in
 ```
 sudo reboot
 ```
-#Configure Retroarch
+## Configure Retroarch
 
 The default set of downloadable cores are ok, but the Playstation core isn't the best, since it only offers lower resolutins.  
 To fix this we need to open a terminal and edit this file and change the URL:
@@ -73,7 +73,7 @@ core_updater_buildbot_cores_url="https://buildbot.libretro.com/nightly/linux/arm
 ```
 Also, there are other URL's you can use, if you'd like to experiment with an older set of cores. Go to that URL in a web browser and browse around!
 
-##Configure Retroarch. This first run will be slow.
+## Configure Retroarch. This first run will be slow.
 ```
 retroarch
 ```
@@ -109,7 +109,7 @@ Settings(Second icon from the left) > input > menu controls > Menu Swap OK and C
 
 Main Menu(First Icon from the left) Online Updater -> Update Assets
 
-##Download Some Cores
+## Download Some Cores
 
 Main Menu > Online Updater -> Core Downloader > [choose cores here to download]
 
@@ -124,7 +124,7 @@ ScummVM
 Sega - MS/MD/CD/32x (PicoDrive)
 Sony - PlayStation (PCSX ReARMed)
 ```
-##Add some games
+## Add some games
 
 Import Content(Big Plus Icon) > Scan Directory > [choose rom directory]
 
@@ -133,11 +133,11 @@ select the 'Parent Directory' button until you see a directory called /media.  S
 
 After adding all your games, press the back button on your controller many times to get back to the top level of the Retroarch menu.
 
-##Play some games!
+## Play some games!
 
 In the top level menu of Retroarch, go right until you see some console icons.  Pick a game, click OK a couple more times to select the core, and play the game.
 
-##Audio Issues
+## Audio Issues
 If your headphone jack to low
 
 In terminal type 
