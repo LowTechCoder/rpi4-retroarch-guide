@@ -5,9 +5,9 @@ This Guide written in Jan 2021, and is meant to be used on a fresh install of th
 I love RetroArch more than any other Raspberry Pi retro solution, so I thought it would be nice to have a very focused document about installing RetroArch and some descriptions to help someone to understand how it all works more.
 
 ## Reasons to use this over other solutions:
-1 GUI to learn, just RetroArch XMB.  
-Auto run commands on boot
-Edit config files using a keyboard and mouse instead of having to connect through your wifi.
+* 1 GUI to learn, just RetroArch XMB.  
+* Auto run commands on boot.
+* Edit config files using a keyboard and mouse instead of having to connect through your wifi.
 
 During Raspberry Pi OS Installation,
 Choose Auto login, choose a password, and do anything else it asks for.
