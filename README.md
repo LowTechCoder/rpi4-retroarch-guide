@@ -30,9 +30,9 @@ curl https://download.argon40.com/argon1.sh | bash
 
 Desktop Menu > Preferences > Raspberry Pi Configuration > Display 
    fixes emulation display issues
-   > Composite Video [Disable]
+   Composite Video [Disable]
    this is optional, use this if your screen does something annoying when the screen loses signal.
-   > Screen Blanking [Disable]
+   Screen Blanking [Disable]
 
 fixme! not sure yet if I need this, default may be fine.
 Menu > Preferences > Raspberry Pi Configuration > Performance > GPU Memory > [128]
