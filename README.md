@@ -6,10 +6,11 @@ During Raspberry Pi OS Installation,
 Choose Auto login, choose a password, and do anything else it asks for.
 
 Connect to the internet the usual way and then open a Terminal and update.
-
+```
 sudo apt update
 The '-y' automatically chooses 'yes' during package installation. We'll use it in this project to make things quicker, but be careful with this flag when installing things.
 sudo apt full-upgrade -y
+```
 
 After you are connected to the internet and have a web browser, I would recommend git cloneing this guide or bookmarking this page in your browser, so you'll have easy access to these instructions.
 
