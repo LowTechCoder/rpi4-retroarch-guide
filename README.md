@@ -6,34 +6,39 @@ During Raspberry Pi OS Installation,
 Choose Auto login, choose a password, and do anything else it asks for.
 
 Connect to the internet the usual way and then open a Terminal and update.
+The '-y' automatically chooses 'yes' during package installation. We'll use it in this project to make things quicker, but be careful with this flag when installing things.
 ```
 sudo apt update
-The '-y' automatically chooses 'yes' during package installation. We'll use it in this project to make things quicker, but be careful with this flag when installing things.
 sudo apt full-upgrade -y
 ```
 
-After you are connected to the internet and have a web browser, I would recommend git cloneing this guide or bookmarking this page in your browser, so you'll have easy access to these instructions.
+After you are connected to the internet and have a web browser, I would recommend doing a git clone to this guide or bookmarking this page in your browser, so you'll have easy access to these instructions.
 
 Use a Terminal to install snapd and retroarch:
-
+```
 sudo apt install snapd -y
 sudo snap install retroarch
-install your favorite command line editor.  If your new, replace vim with nano.
+```
+Install your favorite command line editor.  If your new, replace vim with nano.
+```
 sudo apt install vim -y
-
+```
 Enable exfat.  This is optional.  I like using an exfat external thumbdrive to store the Games.  I chose Exfat because it works on all OS's.
+```
 sudo apt install exfat-fuse -y
-
+```
 Optional Argon One case shutdown script:
 https://github.com/okunze/Argon40-ArgonOne-Script
 Skip this if you don't have an Argon One Raspberry Pi 4 case.
+```
 curl https://download.argon40.com/argon1.sh | bash
-
-Desktop Menu > Preferences > Raspberry Pi Configuration > Display 
-   fixes emulation display issues
-   Composite Video [Disable]
-   this is optional, use this if your screen does something annoying when the screen loses signal.
-   Screen Blanking [Disable]
+```
+Fixes emulation display issues
+Desktop Menu > Preferences > Raspberry Pi Configuration > Display > Composite Video [Disable]
+This is optional, use this if your screen does something annoying when the screen loses signal.
+Desktop Menu > Preferences > Raspberry Pi Configuration > Display > Screen Blanking [Disable]
+   
+   
 
 fixme! not sure yet if I need this, default may be fine.
 Menu > Preferences > Raspberry Pi Configuration > Performance > GPU Memory > [128]
