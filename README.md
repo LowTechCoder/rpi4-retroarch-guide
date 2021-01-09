@@ -18,10 +18,11 @@ Here are the basics of what we'll be doing in this guide:
 * Configure RetroArch
 * Install a script to autostart Retroarch, shutdown the Rraspbery Pi, and backup RetroArch config files to the thumbdrive.
 
-During Raspberry Pi OS Installation,
-Choose Auto login, choose a password, and do anything else it asks for.
-
 ## Boot up Raspberry Pi OS and lets get started
+
+First lets make sure the Raspberry Pi OS logs on automatically.
+
+Desktop Menu > Preferences > Raspberry Pi Configuration > System > Auto Login > [yes]
 
 Connect to the internet the usual way and then open a Terminal and update.
 The '-y' automatically chooses 'yes' during package installation. We'll use it in this project to make things quicker, but be careful with this flag when installing things.
