@@ -75,7 +75,7 @@ core_updater_buildbot_cores_url="https://buildbot.libretro.com/nightly/linux/arm
 ```
 Also, there are other URL's you can use, if you'd like to experiment with an older set of cores. Go to that URL in a web browser and browse around!
 
-## Configure Retroarch. This first run will be slow.
+## Configure Retroarch. This first run will be slow, and you may see some errors in the terminal, but it will be ok.
 ```
 retroarch
 ```
@@ -157,8 +157,8 @@ Select the headphone jack, increase the level just below red levels. Press escap
 
 Also, for audio, on the Raspberry Pi OS panel, there is a speaker icon you can click or right click on to adjust some volume related things.
 
-# Auto Start RetroArch
-I wrote some scripts that will help with autostarting RetroArch.  I just quickly want to point out that there is probably a better
+# Auto Start and Shutdown RetroArch
+I wrote some scripts that will help with autostarting and shutting down RetroArch.  I just quickly want to point out that there is probably a better
 way of doing this like using SystemD, but that never worked out for me, so I either don't know enough about it yet, or maybe it's behind on the Raspberry Pi OS. So lets do this with my scripts until I find a better way.  
 ```
 cd ~
@@ -200,6 +200,8 @@ Change the paths to match your paths
 ```
 /media/pi/USBDRIVE/rasp_pi_retroarch_conf_backups
 ```
+The autoscript we installed also made it possible to shutdown the Raspberry Pi from RetroArch XMB by:
+Main Menu > Quit RetroArch
 
 While playing a game if you notice a little lag from the time you press a button and when the character on the game moves, then you may want to turn on Run Ahead Mode.
 
