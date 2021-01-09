@@ -36,6 +36,9 @@ After you are connected to the internet and have a web browser, I would recommen
 Use a Terminal to install snapd and retroarch:
 ```
 sudo apt install snapd -y
+```
+We have to reboot after installing snapd, and then lets install RetroArch.
+```
 sudo reboot
 sudo snap install retroarch
 ```
