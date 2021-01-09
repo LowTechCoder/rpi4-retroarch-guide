@@ -90,6 +90,10 @@ Settings > Video > Fullscreen Mode > Start in Fullscreen Mode > [on]
 
 If you'd like to toggle fullscreen, press 'f' on the keyboard.
 
+Make sure your settings get saved when exiting RetroArch.
+
+Settings > Configuration > Save Configuration on Quit > [on]
+
 Hopefully your controller is mostly working, so you should be able to use that now, or you can use the keyboard's up, down, left, right and enter keys to get around in XMB.  
 
 If your controller isn't working go to:
@@ -195,20 +199,25 @@ Change the paths to match your paths
 /media/pi/USBDRIVE/rasp_pi_retroarch_conf_backups
 ```
 
-While playing a game if you notice a little lag from the time you press a button and when the character on the game moves, then you may want to turn on Run Ahead Mode
-Settings > Latency > Run-Ahead to Reduce Latency > [on]
-Number of Frames to Run-Ahead > [1 or 2]
-Use Second Instance for Run-Ahead > [off]
+While playing a game if you notice a little lag from the time you press a button and when the character on the game moves, then you may want to turn on Run Ahead Mode.
 
-We could just exit RetroArch to save settings, but lets make sure the global file gets saved after making these changes.  Main Menu > Save Current Configuration
+Settings > Latency > Run-Ahead to Reduce Latency > [on]
+
+From my experience, setting this to 1 or 2 is ok for most games.  If you set it too high, you'll notice games acting a bit strange. If you want to be super picky about this, you probably need to have a different setting for each game.  Personally, thats too much work for me, so I just set it globally on 2.  And if I find a game that seems a bit jumpy from this, i will lower the setting for that game.
+
+Settings > Latency > Number of Frames to Run-Ahead > [1 or 2]
+
+Settings > Latency > Use Second Instance for Run-Ahead > [off]
+
+We could just exit RetroArch to save settings, but lets make sure the global file gets saved after making these changes.  
+
+Main Menu > Save Current Configuration
 
 After turning Run-Ahead on globally, you'll need to turn it off for any console that can't handle it.  We'll use the Playstation as an example, and out of all the cores I use, this is the only one I need to turn off. This is also a good lesson on how to set settings for a single core, that will override the global settings you may set.
 
 Sony - Playstation > Latency > Run-Ahead to Reduce Latency > [off]
-Back button, Back button until you see Overrides close to the bottom of the list.  Select that and select Save Core Overrides to save those Run-Ahead settings only for the Playstation core.
 
-Make sure your settings get saved on quit
-Settings > Configuration > Save Configuration on Quit > [on]
+Now press Back button, Back button until you see 'Overrides' close to the bottom of the list.  Select that and select 'Save Core Overrides' to save those Run-Ahead settings only for the Playstation core.
 
 BIOS COMING SOON
 
