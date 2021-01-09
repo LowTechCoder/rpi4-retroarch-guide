@@ -2,12 +2,21 @@
 
 This Guide written in Jan 2021, and is meant to be used on a fresh install of the 32bit Raspberry Pi OS Desktop, on a Raspberry Pi 4.
 
-I love RetroArch more than any other Raspberry Pi retro solution, so I thought it would be nice to have a very focused document about installing RetroArch and some descriptions to help someone to understand how it all works.  Another reason I did this is because I had a very specific set of things I wanted my Retro Gaming Raspberry Pi to do.  I wanted to keep games separate from the OS on a different USB thumbdrive.  That way if something fails on 1 SD card, the other one will be fine.  I also wanted to use that extra USB thumbdrive to automatically backup RetroArch config files daily. Even if you aren't insterested in these things, there should be lots of good info here to read through for someone who hasn't had much experience with RetroArch.   
+I love RetroArch more than any other Raspberry Pi retro gaming solution, so I thought it would be nice to have a very focused guide about installing RetroArch on a Raspberry Pi 4/400 and some detailed info to help someone to understand how it all works.  Another reason I did this is because I had a very specific set of things I wanted my Retro Gaming Raspberry Pi to do, that didn't seem very possible on other retro gaming solutions.
 
-## Reasons to use this over other solutions:
-* 1 GUI to learn, just RetroArch XMB.  
-* Auto run commands on boot.
-* Edit config files using a keyboard and mouse instead of having to connect through your wifi.
+I wanted to:
+* Keep games separate from the OS on a different USB thumbdrive.  
+* On boot, auto backup RetroArch config files to the extra USB thumbdrive, and run some other scripts in the future, I haven't even thought of yet.
+* 1 retro gaming GUI like RetroArch. Most others combine RetroArch and Emulationstation, which seems like overkill to me.
+* Edit config files and adding games without having to connect through the wifi.
+* Configure other things like Bluetooth or wifi through the Raspberry Pi OS.
+* Be able to close Retroarch and use the Raspberry Pi as a normal computer.
+
+Here are the basics of what we'll be doing in this guide:
+
+* Install RetroArch
+* Configure RetroArch
+* Install a script to autostart Retroarch, shutdown the Rraspbery Pi, and backup RetroArch config files to the thumbdrive.
 
 During Raspberry Pi OS Installation,
 Choose Auto login, choose a password, and do anything else it asks for.
@@ -44,7 +53,7 @@ Skip this if you don't have an Argon One Raspberry Pi 4 case.
 ```
 curl https://download.argon40.com/argon1.sh | bash
 ```
-## Fixes emulation display issues
+## Fixe emulation display issues
 
 Desktop Menu > Preferences > Raspberry Pi Configuration > Display > Composite Video [Disable]
 
