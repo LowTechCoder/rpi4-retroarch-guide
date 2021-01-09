@@ -21,6 +21,8 @@ Here are the basics of what we'll be doing in this guide:
 During Raspberry Pi OS Installation,
 Choose Auto login, choose a password, and do anything else it asks for.
 
+## Boot up Raspberry Pi OS and lets get started
+
 Connect to the internet the usual way and then open a Terminal and update.
 The '-y' automatically chooses 'yes' during package installation. We'll use it in this project to make things quicker, but be careful with this flag when installing things.
 ```
