@@ -75,7 +75,9 @@ core_updater_buildbot_cores_url="https://buildbot.libretro.com/nightly/linux/arm
 ```
 Also, there are other URL's you can use, if you'd like to experiment with an older set of cores. Go to that URL in a web browser and browse around!
 
-## Configure Retroarch. This first run will be slow, and you may see some errors in the terminal, but it will be ok.
+## Configure Retroarch. 
+
+This first run will be slow, and you may see some errors in the terminal, but it will be ok.
 ```
 retroarch
 ```
