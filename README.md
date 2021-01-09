@@ -81,8 +81,7 @@ retroarch
 ```
 Now close RetroArch by closing out the window.  If your in full screen mode, press F, and then close out the window.
 
-The default set of downloadable cores are ok, but the Playstation core isn't the best, since it only offers lower resolutins.  
-To fix this we need to open a terminal and edit this file and change the URL:
+The default set of downloadable cores are ok, but the Playstation core isn't the best, since it only offers lower resolutins. To fix this we need to open a terminal and edit this file and change the URL:
 
 The '427' may be a different number for you.  Also, use your favorite editor instead of vim.
 ```
