@@ -37,9 +37,16 @@ Use a Terminal to install snapd and retroarch:
 ```
 sudo apt install snapd -y
 ```
-We have to reboot after installing snapd, and then lets install RetroArch.
+We have to reboot after installing snapd, but first lets do a change to the system that will help the screen look better while playing games.
 ```
-sudo reboot
+sudo raspi-config
+```
+Advanced Options > Compositor > [no]
+
+After you select 'Finish', it will ask you to reboot.
+
+Now lets install RetroArch
+```
 sudo snap install retroarch
 ```
 Install your favorite command line editor or if you like nano, then replace 'vim' with 'nano' throughout this guide.
