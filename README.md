@@ -59,7 +59,7 @@ sudo apt install exfat-fuse -y
 ```
 ## Optional Argon One case shutdown script
 
-I bought this Argon One case because it relocates all the inputs to the back of the device.  Heres the script that adjusts the fan and power button.
+I bought the Argon One case because it relocates all the inputs to the back of the device.  Heres the script that adjusts the fan and power button.
 
 https://github.com/okunze/Argon40-ArgonOne-Script
 
