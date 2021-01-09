@@ -73,6 +73,10 @@ Click OK, when done, and you will now be asked to reboot or you can type this in
 sudo reboot
 ```
 ## Configure Retroarch
+Lets get the default config files for RetroArch created by running RetroArch, and then close it for now.
+```
+retroarch
+```
 
 The default set of downloadable cores are ok, but the Playstation core isn't the best, since it only offers lower resolutins.  
 To fix this we need to open a terminal and edit this file and change the URL:
