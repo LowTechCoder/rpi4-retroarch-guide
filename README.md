@@ -34,7 +34,9 @@ Enable exfat.  This is optional.  I like using an exfat external thumbdrive to s
 ```
 sudo apt install exfat-fuse -y
 ```
-Optional Argon One case shutdown script:
+## Optional Argon One case shutdown script
+
+I bought this Argon One case because it relocates all the inputs to the back of the device.  Heres the script that adjusts the fan and power button.
 
 https://github.com/okunze/Argon40-ArgonOne-Script
 
@@ -42,7 +44,7 @@ Skip this if you don't have an Argon One Raspberry Pi 4 case.
 ```
 curl https://download.argon40.com/argon1.sh | bash
 ```
-Fixes emulation display issues
+## Fixes emulation display issues
 
 Desktop Menu > Preferences > Raspberry Pi Configuration > Display > Composite Video [Disable]
 
