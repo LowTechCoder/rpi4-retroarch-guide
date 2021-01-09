@@ -37,11 +37,18 @@ Use a Terminal to install snapd and retroarch:
 ```
 sudo apt install snapd -y
 ```
-We have to reboot after installing snapd, but first lets do a change to the system that will help the screen look better while playing games.
+We have to reboot after installing snapd, but first lets do a change to the system that will help fix display issues while gaming.
+
 ```
 sudo raspi-config
 ```
 Advanced Options > Compositor > [no]
+
+Display Options > Composite Video > [no]
+
+This is optional, use this if your screen does something annoying when the screen loses signal.
+
+Display Options > Screen Blanking > [no]
 
 After you select 'Finish', it will ask you to reboot.
 
@@ -66,18 +73,6 @@ https://github.com/okunze/Argon40-ArgonOne-Script
 Skip this if you don't have an Argon One Raspberry Pi 4 case.
 ```
 curl https://download.argon40.com/argon1.sh | bash
-```
-## Fix emulation display issues
-
-Desktop Menu > Preferences > Raspberry Pi Configuration > Display > Composite Video [Disable]
-
-This is optional, use this if your screen does something annoying when the screen loses signal.
-
-Desktop Menu > Preferences > Raspberry Pi Configuration > Display > Screen Blanking [Disable]
-
-Click OK, when done, and you will now be asked to reboot or you can type this into terminal to reboot:
-```
-sudo reboot
 ```
 ## Configure Retroarch
 Lets get the default config files for RetroArch created by running RetroArch, and then close it for now.  Since this is the first time running RetroArch, this may be a bit slow.  You'll also see some errors, but that's ok.
