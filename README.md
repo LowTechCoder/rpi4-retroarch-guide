@@ -2,7 +2,7 @@
 
 This Guide written in Jan 2021, and is meant to be used on a fresh install of the 32bit Raspberry Pi OS Desktop, on a Raspberry Pi 4.
 
-I love RetroArch more than any other Raspberry Pi retro solution, so I thought it would be nice to have a very focused document about installing RetroArch and some descriptions to help someone to understand how it all works more.
+I love RetroArch more than any other Raspberry Pi retro solution, so I thought it would be nice to have a very focused document about installing RetroArch and some descriptions to help someone to understand how it all works.  Another reason I did this is because I had a very specific set of things I wanted my Retro Gaming Raspberry Pi to do.  I wanted to keep games separate from the OS on a different USB thumbdrive.  That way if something fails on 1 SD card, the other one will be fine.  I also wanted to use that extra USB thumbdrive to automatically backup RetroArch config files daily. Even if you aren't insterested in these things, there should be lots of good info here to read through for someone who hasn't had much experience with RetroArch.   
 
 ## Reasons to use this over other solutions:
 * 1 GUI to learn, just RetroArch XMB.  
