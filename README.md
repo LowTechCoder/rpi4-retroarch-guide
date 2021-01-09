@@ -60,7 +60,7 @@ Skip this if you don't have an Argon One Raspberry Pi 4 case.
 ```
 curl https://download.argon40.com/argon1.sh | bash
 ```
-## Fixe emulation display issues
+## Fix emulation display issues
 
 Desktop Menu > Preferences > Raspberry Pi Configuration > Display > Composite Video [Disable]
 
