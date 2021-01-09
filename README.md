@@ -74,7 +74,7 @@ Skip this if you don't have an Argon One Raspberry Pi 4 case.
 ```
 curl https://download.argon40.com/argon1.sh | bash
 ```
-## Configure Retroarch
+## Configure Retroarch Downloader
 Lets get the default config files for RetroArch created by running RetroArch, and then close it for now.  Since this is the first time running RetroArch, this may be a bit slow.  You'll also see some errors, but that's ok.
 ```
 retroarch
