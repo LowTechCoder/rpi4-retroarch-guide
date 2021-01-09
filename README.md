@@ -148,4 +148,60 @@ Select the headphone jack, increase the level just below red levels. Press escap
 
 Also, for audio, on the Raspberry Pi OS panel, there is a speaker icon you can click or right click on to adjust some volume related things.
 
+# Auto Start RetroArch
+I wrote some scripts that will help with autostarting RetroArch.  I just quickly want to point out that there is probably a better
+way of doing this like using SystemD, but that never worked out for me, so I either don't know enough about it yet, or maybe it's behind on the Raspberry Pi OS. So lets do this with my scripts until I find a better way.  
+```
+cd ~
+#this is my autostart script that will perform some config backups.
+git clone https://github.com/LowTechCoder/pi_auto_start_scripts.git
+#this is my script that watches for the USB drive to mount, and then it runs the above autostart script.
+git clone https://github.com/LowTechCoder/watch_for_dirs_to_exist.git
+
+cd pi_auto_start_scripts/
+mkdir /home/pi/.config/autostart/
+#this script will start when the desktop is going
+cp desktop.txt /home/pi/.config/autostart/.desktop
+#my script that contains backup commands for RetroArch configs
+cp autostart.bash ../
+cd ~
+```
+Edit the file and see if it needs any changes to match your pi
+```
+vim autostart.bash
+```
+Change this line:
+```
+cd /media/pi/USBDRIVE/rasp_pi_retroarch_conf_backups/
+```
+retroarch -f will open RetroArch in full screen
+```
+cd ~/watch_for_dirs_to_exist/
+vim paths.conf
+```
+Change the paths to match your paths
+```
+/media/pi/USBDRIVE/rasp_pi_retroarch_conf_backups
+```
+Set retroarch to fullscreen
+Settings > Video > Fullscreen Mode > Start in Fullscreen Mode > [on]
+
+While playing a game if you notice a little lag from the time you press a button and when the character on the game moves, then you may want to turn on Run Ahead Mode
+Settings > Latency > Run-Ahead to Reduce Latency > [on]
+Number of Frames to Run-Ahead > [1 or 2]
+Use Second Instance for Run-Ahead > [off]
+
+We could just exit RetroArch to save settings, but lets make sure the global file gets saved after making these changes.  Main Menu > Save Current Configuration
+
+After turning Run-Ahead on globally, you'll need to turn it off for any console that can't handle it.  We'll use the Playstation as an example, and out of all the cores I use, this is the only one I need to turn off. This is also a good lesson on how to set settings for a single core, that will override the global settings you may set.
+
+Sony - Playstation > Latency > Run-Ahead to Reduce Latency > [off]
+Back button, Back button until you see Overrides close to the bottom of the list.  Select that and select Save Core Overrides to save those Run-Ahead settings only for the Playstation core.
+
+Make sure your settings get saved on quit
+Settings > Configuration > Save Configuration on Quit > [on]
+
+BIOS COMING SOON
+
+
 More to come about autostarting RetroArch, automatically backing up config files, more!!!
