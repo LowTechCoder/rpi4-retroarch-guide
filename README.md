@@ -217,10 +217,10 @@ Edit the file and see if it needs any changes to match your pi
 ```
 vim autostart.bash
 ```
-Change this line:
-```
+Change this line to match your thumbdrive directory you want your backup files to go in:
+
 cd /media/pi/USBDRIVE/rasp_pi_retroarch_conf_backups/
-```
+
 retroarch -f will open RetroArch in full screen
 ```
 cd ~/watch_for_dirs_to_exist/
