@@ -25,7 +25,7 @@ First lets make sure the Raspberry Pi OS logs on automatically.
 Desktop Menu > Preferences > Raspberry Pi Configuration > System > Auto Login > [yes]
 
 Connect to the internet the usual way and then open a Terminal and update.
-The '-y' automatically chooses 'yes' during package installation. We'll use it in this project to make things quicker, but be careful with this flag when installing things.
+The '-y' automatically chooses 'yes' during package installation. We'll use it in this project to make things quicker, but be careful with this flag when installing things.  Also as a reminder, when doing a copy or paste on a Terminal, use Shift + Ctrl + c, and Shift + Ctrl + v to copy and paste.
 ```
 sudo apt update
 sudo apt full-upgrade -y
