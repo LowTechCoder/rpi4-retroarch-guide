@@ -225,9 +225,9 @@ cd /media/pi/USBDRIVE/rasp_pi_retroarch_conf_backups/
 cd ~/watch_for_dirs_to_exist/
 vim paths.conf
 ```
-Change the paths to match your paths
+Delete the paths in this file, and add a path to match your path on your thumbdrive. This will help the script detect if this USB drive is mounted and ready to go before it runs the backups.
 ```
-/media/pi/USBDRIVE/rasp_pi_retroarch_conf_backups
+/media/pi/USBDRIVE/
 ```
 The autoscript we installed also made it possible to shutdown the Raspberry Pi from RetroArch XMB by:
 Main Menu > Quit RetroArch
