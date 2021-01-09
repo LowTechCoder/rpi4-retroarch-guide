@@ -100,11 +100,18 @@ Also, there are other URL's you can use, if you'd like to experiment with an old
 ```
 retroarch
 ```
+
 Change to XMB in retroarch
 
 Settings > Drivers > Menu > [xmb]
 
+Make sure your settings get saved when exiting RetroArch.
+
+Settings > Configuration > Save Configuration on Quit > [on]
+
 Restart Retroarch
+
+Main Menu > Restart RetroArch
 
 Now you should be using XMB.  Lets do some more things in Retroarch.
 
@@ -113,10 +120,6 @@ Set retroarch to fullscreen
 Settings > Video > Fullscreen Mode > Start in Fullscreen Mode > [on]
 
 If you'd like to toggle fullscreen, press 'f' on the keyboard.
-
-Make sure your settings get saved when exiting RetroArch.
-
-Settings > Configuration > Save Configuration on Quit > [on]
 
 Hopefully your controller is mostly working, so you should be able to use that now, or you can use the keyboard's up, down, left, right and enter keys to get around in XMB.  
 
