@@ -85,7 +85,10 @@ Restart Retroarch
 
 Now you should be using XMB.  Lets do some more things in Retroarch.
 
-If you'd like to go full screen, press 'f' on the keyboard.
+Set retroarch to fullscreen
+Settings > Video > Fullscreen Mode > Start in Fullscreen Mode > [on]
+
+If you'd like to toggle fullscreen, press 'f' on the keyboard.
 
 Hopefully your controller is mostly working, so you should be able to use that now, or you can use the keyboard's up, down, left, right and enter keys to get around in XMB.  
 
@@ -191,8 +194,6 @@ Change the paths to match your paths
 ```
 /media/pi/USBDRIVE/rasp_pi_retroarch_conf_backups
 ```
-Set retroarch to fullscreen
-Settings > Video > Fullscreen Mode > Start in Fullscreen Mode > [on]
 
 While playing a game if you notice a little lag from the time you press a button and when the character on the game moves, then you may want to turn on Run Ahead Mode
 Settings > Latency > Run-Ahead to Reduce Latency > [on]
