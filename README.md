@@ -153,16 +153,24 @@ I wrote some scripts that will help with autostarting RetroArch.  I just quickly
 way of doing this like using SystemD, but that never worked out for me, so I either don't know enough about it yet, or maybe it's behind on the Raspberry Pi OS. So lets do this with my scripts until I find a better way.  
 ```
 cd ~
-#this is my autostart script that will perform some config backups.
+```
+This is my autostart script that will perform some config backups.
+```
 git clone https://github.com/LowTechCoder/pi_auto_start_scripts.git
-#this is my script that watches for the USB drive to mount, and then it runs the above autostart script.
+```
+This is my script that watches for the USB drive to mount, and then it runs the above autostart script.
+```
 git clone https://github.com/LowTechCoder/watch_for_dirs_to_exist.git
 
 cd pi_auto_start_scripts/
 mkdir /home/pi/.config/autostart/
-#this script will start when the desktop is going
+```
+This script will start when the desktop is going
+```
 cp desktop.txt /home/pi/.config/autostart/.desktop
-#my script that contains backup commands for RetroArch configs
+```
+My script that contains backup commands for RetroArch configs
+```
 cp autostart.bash ../
 cd ~
 ```
