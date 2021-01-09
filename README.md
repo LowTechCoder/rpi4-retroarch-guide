@@ -215,11 +215,10 @@ Main Menu > Save Current Configuration
 
 After turning Run-Ahead on globally, you'll need to turn it off for any console that can't handle it.  We'll use the Playstation as an example, and out of all the cores I use, this is the only one I need to turn off. This is also a good lesson on how to set settings for a single core, that will override the global settings you may set.
 
+Start up a Playstion game and then: 
+
 Sony - Playstation > Latency > Run-Ahead to Reduce Latency > [off]
 
-Now press Back button, Back button until you see 'Overrides' close to the bottom of the list.  Select that and select 'Save Core Overrides' to save those Run-Ahead settings only for the Playstation core.
+Now press the Back button a couple times until you see 'Overrides' in the menu, close to the bottom of the list.  Select 'Overrides' and select 'Save Core Overrides' to save those Run-Ahead settings only for the Playstation core.
 
-BIOS COMING SOON
-
-
-More to come about autostarting RetroArch, automatically backing up config files, more!!!
+Have fun!  If you notice any issues with a core, it could be that you need to find BIOS files for that core. I'll let you google that for your self, since they aren't really needed in this guide and cores I've selected.
