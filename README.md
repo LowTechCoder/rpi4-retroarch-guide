@@ -221,7 +221,6 @@ Change this line to match your thumbdrive directory you want your backup files t
 
 cd /media/pi/USBDRIVE/rasp_pi_retroarch_conf_backups/
 
-retroarch -f will open RetroArch in full screen
 ```
 cd ~/watch_for_dirs_to_exist/
 vim paths.conf
