@@ -154,7 +154,6 @@ Nintendo - Game Boy / Color (Gambatte)
 Nintendo - Game Boy Advance (gbSP)
 Nintendo - NES / Famicom (FCEUmm)
 Nintendo - SNES / SFC (Snes9x - Current)
-ScummVM
 Sega - MS/MD/CD/32x (PicoDrive)
 Sony - PlayStation (PCSX ReARMed)
 ```
