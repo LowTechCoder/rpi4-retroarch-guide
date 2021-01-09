@@ -73,7 +73,7 @@ Click OK, when done, and you will now be asked to reboot or you can type this in
 sudo reboot
 ```
 ## Configure Retroarch
-Lets get the default config files for RetroArch created by running RetroArch, and then close it for now.
+Lets get the default config files for RetroArch created by running RetroArch, and then close it for now.  Since this is the first time running RetroArch, this may be a bit slow.
 ```
 retroarch
 ```
@@ -97,7 +97,6 @@ Also, there are other URL's you can use, if you'd like to experiment with an old
 
 ## Configure Retroarch. 
 
-This first run will be slow, and you may see some errors in the terminal, but it will be ok.
 ```
 retroarch
 ```
