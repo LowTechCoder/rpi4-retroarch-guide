@@ -230,6 +230,7 @@ Delete the paths in this file, and add a path to match your path on your thumbdr
 /media/pi/USBDRIVE/
 ```
 The autoscript we installed also made it possible to shutdown the Raspberry Pi from RetroArch XMB by:
+
 Main Menu > Quit RetroArch
 
 While playing a game if you notice a little lag from the time you press a button and when the character on the game moves, then you may want to turn on Run Ahead Mode.
