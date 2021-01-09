@@ -36,6 +36,7 @@ After you are connected to the internet and have a web browser, I would recommen
 Use a Terminal to install snapd and retroarch:
 ```
 sudo apt install snapd -y
+sudo reboot
 sudo snap install retroarch
 ```
 Install your favorite command line editor.  If your new, replace vim with nano.
