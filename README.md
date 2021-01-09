@@ -154,7 +154,7 @@ Nintendo - Game Boy / Color (Gambatte)
 Nintendo - Game Boy Advance (gbSP)
 Nintendo - NES / Famicom (FCEUmm)
 Nintendo - SNES / SFC (Snes9x - Current)
-Sega - MS/MD/CD/32x (PicoDrive)
+Sega - MS/MD/CD/32x (Genesis Plus GX)
 Sony - PlayStation (PCSX ReARMed)
 ```
 ## Add some games
