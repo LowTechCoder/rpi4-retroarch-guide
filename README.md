@@ -42,7 +42,7 @@ We have to reboot after installing snapd, and then lets install RetroArch.
 sudo reboot
 sudo snap install retroarch
 ```
-Install your favorite command line editor.  If your new, replace vim with nano.
+Install your favorite command line editor or if you like nano, then replace 'vim' with 'nano' throughout this guide.
 ```
 sudo apt install vim -y
 ```
