@@ -127,7 +127,7 @@ Hopefully your USB controller is mostly working, so you should be able to use th
 
 If your controller isn't working go to:
 
-Settings(Second icon from the left) > input > Port 1 controls > Set All Controls
+> Settings(Second icon from the left) > input > Port 1 controls > Set All Controls
 
 You may have to do this a couple times if you mess up, so don't forget you do have the keyboard if you lose control with your controller.
 
@@ -142,8 +142,8 @@ If you don't have a spare button for Menu Toggle, then do this to set a combo bu
 This is optional and you can come back to this later, but if you would like to swap the OK and Cancel buttons:
 
 > Settings(Second icon from the left) > input > menu controls > Menu Swap OK and Cancel Buttons [on]
-
-Main Menu(First Icon from the left) Online Updater -> Update Assets
+>
+> Main Menu(First Icon from the left) Online Updater -> Update Assets
 
 ## Download Some Cores
 
