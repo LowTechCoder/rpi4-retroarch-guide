@@ -253,6 +253,6 @@ Start up a Playstion game and then:
 
 Sony - Playstation > Latency > Run-Ahead to Reduce Latency > [off]
 
-Now press the Back button a couple times until you see 'Overrides' in the menu, close to the bottom of the list.  Select 'Overrides' and select 'Save Core Overrides' to save those Run-Ahead settings only for the Playstation core.
+Now press the Back button until you see 'Overrides' in the menu, close to the bottom of the list.  Select 'Overrides' and select 'Save Core Overrides' to save those Run-Ahead settings only for the Playstation core.
 
 Have fun!  If you notice any issues with a core, it could be that you need to find BIOS files for that core. I'll let you google that for your self, since they aren't really needed in this guide and cores I've selected.
