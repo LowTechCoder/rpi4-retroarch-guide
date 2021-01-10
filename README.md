@@ -161,7 +161,6 @@ Cores I am currently using.  I'll swap these out later if I find better alternat
 
 > ATARI - 2600 (STELLA 2014)  
 > Nintendo - Game Boy / Color (Gambatte)  
-> Nintendo - Game Boy Advance (gbSP)  
 > Nintendo - NES / Famicom (FCEUmm)  
 > Nintendo - SNES / SFC (Snes9x - Current)  
 > Sega - MS/MD/CD/32x (Genesis Plus GX)  
