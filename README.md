@@ -189,7 +189,7 @@ Main Menu > Configuration File > Save Current Configuration
 In the top level menu of Retroarch, go right until you see some console icons.  Pick a game, click OK a couple more times to select the core, and play the game.
 
 ## Audio Issues
-If your headphone jack to low
+If your headphone jack volume is to low
 
 In terminal type 
 ```
@@ -220,7 +220,7 @@ This script will start when the desktop is going
 ```
 cp desktop.txt /home/pi/.config/autostart/.desktop
 ```
-My script that contains backup commands for RetroArch configs
+This is my script that contains backup commands for RetroArch configs.  Depending on how much extra space you have on your drive, you'll want to manually delete old config files every 6 or 12 months, so the drive doesn't fill up with backups.  Later I will add a way to auto delete older config files to the script.
 ```
 cp autostart.bash ../
 cd ~
@@ -229,7 +229,7 @@ Edit the file and see if it needs any changes to match your pi
 ```
 vim autostart.bash
 ```
-Change this line to match your thumbdrive directory you want your backup files to go in:
+Change this line to match your usb drive directory you want your backup files to go in. If you wanted to not use a usb drive, you could just make this line something like /home/pi/ and the auto config backup will just go in your home directory.
 
 cd /media/pi/USBDRIVE/rasp_pi_retroarch_conf_backups/
 
