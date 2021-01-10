@@ -139,6 +139,10 @@ If you don't have a spare button for Menu Toggle, then do this to set a combo bu
 
 > Settings > input > Hotkeys > Menu Toggle Gamepad Combo > [start + select]
 
+Now would be a good time to save the config.
+
+> Main Menu > Configuration File > Save Current Configuration
+
 Download Assets
 
 > Main Menu(First Icon from the left) Online Updater -> Update Assets
