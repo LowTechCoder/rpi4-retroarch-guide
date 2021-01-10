@@ -127,7 +127,7 @@ If your controller isn't working go to:
 
 You may have to do this a couple times if you mess up, so don't forget you do have the keyboard if you lose control with your controller.
 
-This is optional and you can come back to this later, but if you would like to swap the OK and Cancel buttons:
+This is optional and you can come back to this later, but if you would like to swap the OK and Cancel buttons. This can be tricky since your cancel/back button becomes the OK, so if you get hung up on this, use the keyboard's Enter and Backspace to accomplish this.
 
 > Settings(Second icon from the left) > input > menu controls > Menu Swap OK and Cancel Buttons [on]
 
