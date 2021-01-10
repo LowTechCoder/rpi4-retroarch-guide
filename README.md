@@ -283,7 +283,7 @@ Now press the Back button until you see 'Overrides' in the menu, near to the bot
 Let's recap. You now have:
 * RetroArch installed and set up
 * RetroArch Auto config file backups that backs up once a day during boot, and overwrites that daily backup only if the config files change
-* 'F' key will toggle fullscreen
+* 'f' key will toggle fullscreen
 * Main Menu > Quit RetroArch will shutdown your Raspberry Pi
 
 ## Known issues
