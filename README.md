@@ -175,10 +175,6 @@ select the 'Parent Directory' button until you see a directory called /media.  S
 
 After adding all your games, press the back button on your controller many times to get back to the top level of the Retroarch menu.
 
-You're getting ready to play some games.  Just in case something goes wrong or crashes, lets make sure all of the settings we just applied got saved.
-
-> Main Menu > Configuration File > Save Current Configuration
-
 This next step is nice, but optional.  When you choose a game to play it will ask you which core you want to use.  That gets old fast, so lets set up the default core for every console.  
 
 > Settings > Playlists > Manage Playlists > Default Core > [select a core]
