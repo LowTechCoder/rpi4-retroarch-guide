@@ -149,7 +149,7 @@ Now would be a good time to save the config.
 
 Download Assets
 
-> Main Menu(First Icon from the left) Online Updater -> Update Assets
+> Main Menu(First Icon from the left) > Online Updater > Update Assets
 
 ## Download Some Cores
 
