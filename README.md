@@ -242,7 +242,7 @@ Edit the file and see if it needs any changes to match your pi
 ```
 vim autostart.bash
 ```
-Change this line to match your usb drive directory you want your backup files to go in. If you wanted to not use a usb drive, you could just make this line something like /home/pi/ and the auto config backup will just go in your home directory.
+Change this line to match your usb drive directory you want your backup files to go in. If you wanted to not use a usb drive, you could just make the path in this line something like /home/pi/ and the auto config backup will just go in your home directory.
 
 cd /media/pi/USBDRIVE/rasp_pi_retroarch_conf_backups/
 
@@ -250,7 +250,7 @@ cd /media/pi/USBDRIVE/rasp_pi_retroarch_conf_backups/
 cd ~/watch_for_dirs_to_exist/
 vim paths.conf
 ```
-Delete the paths in this file, and add a path to match your path on your thumbdrive. This will help the script detect if this USB drive is mounted and ready to go before it runs the backups.
+Delete the paths in this file, and add a path to match your path on your thumbdrive. This will help the script detect if this USB drive is mounted and ready to go before it runs the backups.  Like above, if you wanted to not use a usb drive, you could just make the path in this line something like /home/pi/ and the auto config backup will just go in your home directory.
 ```
 /media/pi/USBDRIVE/
 ```
