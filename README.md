@@ -91,7 +91,7 @@ vim snap/retroarch/427/.config/retroarch/retroarch.cfg
 ```
 Find the line that starts with:
 ```
-core_updater_buildbot_cores_url=
+core_updater_buildbot_cores_url =
 ```
 and change that line to:
 ```
@@ -279,6 +279,11 @@ Let's recap. You now have:
 * 'F' key will toggle fullscreen
 * Main Menu > Quit RetroArch will shutdown your Raspberry Pi
 
+## Known issues
+
+If you notice editing the retroarch.cfg file is losing your changes, it's a problem in my autostart.bash script.  You can disable the line that begins with 'retroarch', reboot, then make your retroarch.cfg changes.  Then uncomment the retroarch line in the autostart.bash file.  I hope to fix this soon!
+
 If you notice any issues with a core, it could be that you need to find BIOS files for that core. I'll let you google that for your self, since they aren't really needed in this guide and cores I've selected.
+
 
 Have fun! 
