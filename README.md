@@ -174,6 +174,16 @@ You're getting ready to play some games.  Just in case something goes wrong or c
 
 Main Menu > Configuration File > Save Current Configuration
 
+This next step is nice, but optional.  When you choose a game to play it will ask you which core you want to use.  That gets old fast, so lets set up the default core for every console.  
+
+Settings > Playlists > Manage Playlists > Default Core > [select a core]
+
+Now repeat that for each console core.
+
+Lets save those settings.
+
+Main Menu > Configuration File > Save Current Configuration
+
 ## Play some games!
 
 In the top level menu of Retroarch, go right until you see some console icons.  Pick a game, click OK a couple more times to select the core, and play the game.
