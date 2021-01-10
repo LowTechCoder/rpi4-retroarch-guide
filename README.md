@@ -33,6 +33,8 @@ sudo apt full-upgrade -y
 
 After you are connected to the internet and have a web browser, I would recommend doing a git clone to this guide or bookmarking this page in your browser, so you'll have easy access to these instructions.
 
+Make sure your USB controller is plugged in, and a USB thumbdrive if you plan on using the auto config backup script from this guide.
+
 Use a Terminal to install snapd and retroarch:
 ```
 sudo apt install snapd -y
@@ -123,7 +125,7 @@ This will make RetroArch start in fullscreen, and it also will set RetroArch in 
 
 Settings(Gear Icon) > Video > Fullscreen Mode > Start in Fullscreen Mode > [on]
 
-Hopefully your controller is mostly working, so you should be able to use that now, or you can use the keyboard's up, down, left, right and enter keys to get around in XMB.  
+Hopefully your USB controller is mostly working, so you should be able to use that now, or you can continue using your keyboard to get around in XMB.  
 
 If your controller isn't working go to:
 
