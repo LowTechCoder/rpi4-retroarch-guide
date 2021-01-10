@@ -46,13 +46,11 @@ sudo raspi-config
 ```
 This interface can be a bit confusing at first.  Press up, down to select things on the list and then press left or right to select the button below the list, and then press enter to make the selection.  Do these this way:
 
-Advanced Options > Compositor > [no]
-
-Display Options > Composite Video > [Enable 4K60 HDMI] # fixme, not sure I need this!
+> Advanced Options > Compositor > [no]
 
 This is optional, use this if your screen does something annoying when the screen loses signal.
 
-Display Options > Screen Blanking > [no]
+> Display Options > Screen Blanking > [no]
 
 After you select 'Finish', it will ask you to reboot.
 
@@ -109,21 +107,21 @@ retroarch
 
 Change to XMB in retroarch.  You can use a mouse or keyboard arrow keys, backspace and enter to change these settings.
 
-Settings > Drivers > Menu > [xmb]
+> Settings > Drivers > Menu > [xmb]
 
 Make sure your settings get saved when exiting RetroArch.
 
-Settings > Configuration > Save Configuration on Quit > [on]
+> Settings > Configuration > Save Configuration on Quit > [on]
 
 Restart Retroarch
 
-Main Menu > Restart RetroArch
+> Main Menu > Restart RetroArch
 
 Now you should be using XMB.  Lets do some more things in Retroarch.
 
 This will make RetroArch start in fullscreen, and it also will set RetroArch in fullscreen right away.  If you'd like to toggle fullscreen so you can see this document, press 'f' on the keyboard.
 
-Settings(Gear Icon) > Video > Fullscreen Mode > Start in Fullscreen Mode > [on]
+> Settings(Gear Icon) > Video > Fullscreen Mode > Start in Fullscreen Mode > [on]
 
 Hopefully your USB controller is mostly working, so you should be able to use that now, or you can continue using your keyboard to get around in XMB.  
 
@@ -135,35 +133,35 @@ You may have to do this a couple times if you mess up, so don't forget you do ha
 
 If you have a spare button on your controller you may want to asign a button that will pop up the XMB during gameplay:
 
-Settings > Input > Hotkeys > Menu (Toggle) > [press the button]
+> Settings > Input > Hotkeys > Menu (Toggle) > [press the button]
 
 If you don't have a spare button for Menu Toggle, then do this to set a combo button press for the Menu Toggle:
 
-Settings > input > Hotkeys > Menu Toggle Gamepad Combo > [start + select]
+> Settings > input > Hotkeys > Menu Toggle Gamepad Combo > [start + select]
 
 This is optional and you can come back to this later, but if you would like to swap the OK and Cancel buttons:
 
-Settings(Second icon from the left) > input > menu controls > Menu Swap OK and Cancel Buttons [on]
+> Settings(Second icon from the left) > input > menu controls > Menu Swap OK and Cancel Buttons [on]
 
 Main Menu(First Icon from the left) Online Updater -> Update Assets
 
 ## Download Some Cores
 
-Main Menu > Online Updater -> Core Downloader > [choose cores here to download]
+> Main Menu > Online Updater > Core Downloader > [choose cores here to download]
 
 Cores I am currently using.  I'll swap these out later if I find better alternatives.
-```
-ATARI - 2600 (STELLA 2014)
-Nintendo - Game Boy / Color (Gambatte)
-Nintendo - Game Boy Advance (gbSP)
-Nintendo - NES / Famicom (FCEUmm)
-Nintendo - SNES / SFC (Snes9x - Current)
-Sega - MS/MD/CD/32x (Genesis Plus GX)
-Sony - PlayStation (PCSX ReARMed)
-```
+
+> ATARI - 2600 (STELLA 2014)
+> Nintendo - Game Boy / Color (Gambatte)
+> Nintendo - Game Boy Advance (gbSP)
+> Nintendo - NES / Famicom (FCEUmm)
+> Nintendo - SNES / SFC (Snes9x - Current)
+> Sega - MS/MD/CD/32x (Genesis Plus GX)
+> Sony - PlayStation (PCSX ReARMed)
+
 ## Add some games
 
-Import Content(Big Plus Icon) > Scan Directory > [choose rom directory]
+> Import Content(Big Plus Icon) > Scan Directory > [choose rom directory]
 
 If your having trouble finding them, make sure you have your USB drive plugged in, and restart the Pi 4.  Then
 select the 'Parent Directory' button until you see a directory called /media.  Select /media, then /pi, then your thumbdrive, and then your games you want to import.  I would recommend importing 1 gaming console at a time.
@@ -172,17 +170,17 @@ After adding all your games, press the back button on your controller many times
 
 You're getting ready to play some games.  Just in case something goes wrong or crashes, lets make sure all of the settings we just applied got saved.
 
-Main Menu > Configuration File > Save Current Configuration
+> Main Menu > Configuration File > Save Current Configuration
 
 This next step is nice, but optional.  When you choose a game to play it will ask you which core you want to use.  That gets old fast, so lets set up the default core for every console.  
 
-Settings > Playlists > Manage Playlists > Default Core > [select a core]
+> Settings > Playlists > Manage Playlists > Default Core > [select a core]
 
 Now repeat that for each console core.
 
 Lets save those settings.
 
-Main Menu > Configuration File > Save Current Configuration
+> Main Menu > Configuration File > Save Current Configuration
 
 ## Play some games!
 
@@ -243,27 +241,27 @@ Delete the paths in this file, and add a path to match your path on your thumbdr
 ```
 The autoscript we installed also made it possible to shutdown the Raspberry Pi from RetroArch XMB, but don't do this now!  Just letting you know for future reference.  It will work that way after the next time you restart the Raspberry Pi 4. If you ever need to close RetroArch and use the Raspberry Pi OS desktop, then press 'f' on the keyboard and close the window.
 
-Main Menu > Quit RetroArch
+> Main Menu > Quit RetroArch
 
 While playing a game if you notice a little lag from the time you press a button and when the character on the game moves, then you may want to turn on Run Ahead Mode.
 
-Settings > Latency > Run-Ahead to Reduce Latency > [on]
+> Settings > Latency > Run-Ahead to Reduce Latency > [on]
 
 From my experience, setting this to 1 or 2 is ok for most games.  If you set it too high, you'll notice games acting a bit strange. If you want to be super picky about this, you probably need to have a different setting for each game.  Personally, thats too much work for me, so I just set it globally on 2.  And if I find a game that seems a bit jumpy from this, i will lower the setting for that game.
 
-Settings > Latency > Number of Frames to Run-Ahead > [1 or 2]
+> Settings > Latency > Number of Frames to Run-Ahead > [1 or 2]
 
-Settings > Latency > Use Second Instance for Run-Ahead > [off]
+> Settings > Latency > Use Second Instance for Run-Ahead > [off]
 
 We could just exit RetroArch to save settings, but lets make sure the global file gets saved after making these changes.  
 
-Main Menu > Configuration File > Save Current Configuration
+> Main Menu > Configuration File > Save Current Configuration
 
 After turning Run-Ahead on globally, you'll need to turn it off for any console that can't handle it.  We'll use the Playstation as an example, and out of all the cores I use, this is the only one I need to turn off. This is also a good lesson on how to set settings for a single core, that will override the global settings you may set.
 
 Start up a Playstion game and then: 
 
-Sony - Playstation > Latency > Run-Ahead to Reduce Latency > [off]
+> Sony - Playstation > Latency > Run-Ahead to Reduce Latency > [off]
 
 Now press the Back button until you see 'Overrides' in the menu, near to the bottom of the list.  Select 'Overrides' and select 'Save Core Overrides' to save those Run-Ahead settings only for the Playstation core.
 
