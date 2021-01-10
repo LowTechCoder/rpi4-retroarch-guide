@@ -267,4 +267,12 @@ Sony - Playstation > Latency > Run-Ahead to Reduce Latency > [off]
 
 Now press the Back button until you see 'Overrides' in the menu, near to the bottom of the list.  Select 'Overrides' and select 'Save Core Overrides' to save those Run-Ahead settings only for the Playstation core.
 
-Have fun!  If you notice any issues with a core, it could be that you need to find BIOS files for that core. I'll let you google that for your self, since they aren't really needed in this guide and cores I've selected.
+Let's recap. You now have:
+* RetroArch installed and set up
+* RetroArch Auto config file backups that backs up once a day during boot, and overwrites that daily backup only if the config files change
+* 'F' key will toggle fullscreen
+* Main Menu > Quit RetroArch will shutdown your Raspberry Pi
+
+If you notice any issues with a core, it could be that you need to find BIOS files for that core. I'll let you google that for your self, since they aren't really needed in this guide and cores I've selected.
+
+Have fun! 
