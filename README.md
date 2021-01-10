@@ -105,7 +105,7 @@ Also, there are other URL's you can use, if you'd like to experiment with an old
 retroarch
 ```
 
-Change to XMB in retroarch.  You can use a mouse or keyboard arrow keys and enter to change these settings.
+Change to XMB in retroarch.  You can use a mouse or keyboard arrow keys, backspace and enter to change these settings.
 
 Settings > Drivers > Menu > [xmb]
 
