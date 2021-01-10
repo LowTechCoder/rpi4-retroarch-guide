@@ -127,6 +127,10 @@ If your controller isn't working go to:
 
 You may have to do this a couple times if you mess up, so don't forget you do have the keyboard if you lose control with your controller.
 
+This is optional and you can come back to this later, but if you would like to swap the OK and Cancel buttons:
+
+> Settings(Second icon from the left) > input > menu controls > Menu Swap OK and Cancel Buttons [on]
+
 If you have a spare button on your controller you may want to asign a button that will pop up the XMB during gameplay:
 
 > Settings > Input > Hotkeys > Menu (Toggle) > [press the button]
@@ -134,10 +138,6 @@ If you have a spare button on your controller you may want to asign a button tha
 If you don't have a spare button for Menu Toggle, then do this to set a combo button press for the Menu Toggle:
 
 > Settings > input > Hotkeys > Menu Toggle Gamepad Combo > [start + select]
-
-This is optional and you can come back to this later, but if you would like to swap the OK and Cancel buttons:
-
-> Settings(Second icon from the left) > input > menu controls > Menu Swap OK and Cancel Buttons [on]
 
 Download Assets
 
