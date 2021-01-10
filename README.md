@@ -85,7 +85,7 @@ Now close RetroArch by closing out the window.  If your in full screen mode, pre
 
 The default set of downloadable cores are ok, but the Playstation core isn't the best, since it only offers lower resolutins. To fix this we need to open a terminal and edit this file and change the URL:
 
-The '427' may be a different number for you.  Also, use your favorite editor instead of vim.
+The '427' may be a different number for you.  Also, use your favorite editor instead of vim. Also very important to remember to never edit this file when RetroArch is running, because we have RetroArch set to save to this file when RetroArch exits!
 ```
 vim snap/retroarch/427/.config/retroarch/retroarch.cfg
 ```
@@ -109,9 +109,13 @@ Change to XMB in retroarch.  You can use a mouse or keyboard arrow keys, backspa
 
 > Settings > Drivers > Menu > [xmb]
 
-Make sure your settings get saved when exiting RetroArch.
+RetroArch may be set up to save the config file when it quits.  This can cause some confusion if you ever want to edit the retroarch.cfg file while RetroArch is running, so lets disable that auto save feature, and remember to save the config in RetroArch after you make any changes.
 
-> Settings > Configuration > Save Configuration on Quit > [on]
+> Settings > Configuration > Save Configuration on Quit > [off]
+
+Save the config.
+
+> Main Menu > Configuration File > Save Current Configuration
 
 Restart Retroarch
 
@@ -287,7 +291,7 @@ Let's recap. You now have:
 
 ## Known issues
 
-If you notice editing the retroarch.cfg file is losing your changes, it's a problem in my autostart.bash script.  You can disable the line that begins with 'retroarch', reboot, then make your retroarch.cfg changes.  Then uncomment the retroarch line in the autostart.bash file.  I hope to fix this soon!
+If you notice manually editing the retroarch.cfg file is losing your changes, it's because we have RetroArch set to save to this file when RetroArch exits. It will overwrite your changes to that file when RetroArch is running!  You can disable the line that begins with 'retroarch', reboot, then make your retroarch.cfg changes.  Then uncomment the retroarch line in the autostart.bash file.  I hope to fix this soon!
 
 If you notice any issues with a core, it could be that you need to find BIOS files for that core. I'll let you google that for your self, since they aren't really needed in this guide and cores I've selected.
 
