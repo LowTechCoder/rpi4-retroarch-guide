@@ -121,7 +121,7 @@ Now you should be using XMB.  Lets do some more things in Retroarch.
 
 Set retroarch to fullscreen
 
-Settings > Video > Fullscreen Mode > Start in Fullscreen Mode > [on]
+Settings(Gear Icon) > Video > Fullscreen Mode > Start in Fullscreen Mode > [on]
 
 If you'd like to toggle fullscreen, press 'f' on the keyboard.
 
