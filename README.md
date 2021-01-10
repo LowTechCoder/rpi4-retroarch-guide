@@ -290,6 +290,8 @@ Let's recap. You now have:
 
 If you notice manually editing the retroarch.cfg file is losing your changes, you may have RetroArch set up to auto save on quit.  Read guide above to get a reminder on how to disable that.
 
+Closing the RetroArch window will shutdown the Raspberry Pi.  I'll come up with a better solution for this soon!
+
 If you notice any issues with a core, it could be that you need to find BIOS files for that core. I'll let you google that for your self, since they aren't really needed in this guide and cores I've selected.
 
 
