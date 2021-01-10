@@ -46,7 +46,7 @@ This interface can be a bit confusing at first.  Press up, down to select things
 
 Advanced Options > Compositor > [no]
 
-Display Options > Composite Video > [no]
+Display Options > Composite Video > [Enable 4K60 HDMI] # fixme, not sure I need this!
 
 This is optional, use this if your screen does something annoying when the screen loses signal.
 
