@@ -95,7 +95,7 @@ core_updater_buildbot_cores_url=
 ```
 and change that line to:
 ```
-core_updater_buildbot_cores_url="https://buildbot.libretro.com/nightly/linux/armv7-neon-hf/latest/"
+core_updater_buildbot_cores_url = "https://buildbot.libretro.com/nightly/linux/armv7-neon-hf/latest/"
 ```
 Also, there are other URL's you can use, if you'd like to experiment with an older set of cores. Go to that URL in a web browser and browse around!
 
