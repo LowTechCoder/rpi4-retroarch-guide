@@ -254,7 +254,7 @@ Delete the paths in this file, and add a path to match your path on your thumbdr
 ```
 /media/pi/USBDRIVE/
 ```
-The autoscript we installed also made it possible to shutdown the Raspberry Pi from RetroArch XMB, but don't do this now!  Just letting you know for future reference.  It will work that way after the next time you restart the Raspberry Pi 4. If you ever need to close RetroArch and use the Raspberry Pi OS desktop, then press 'f' on the keyboard and close the window.
+The autoscript we installed also made it possible to shutdown the Raspberry Pi from RetroArch XMB, but don't do this now!  Just letting you know for future reference.  It will work that way after the next time you restart the Raspberry Pi 4. If you ever need to close RetroArch and use the Raspberry Pi OS desktop, then press 'f' on the keyboard, but if you close the RetroArch window, the Raspberry Pi will shutdown.  I may come up with a better solution soon!
 
 > Main Menu > Quit RetroArch
 
