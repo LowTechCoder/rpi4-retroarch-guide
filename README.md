@@ -142,7 +142,9 @@ If you don't have a spare button for Menu Toggle, then do this to set a combo bu
 This is optional and you can come back to this later, but if you would like to swap the OK and Cancel buttons:
 
 > Settings(Second icon from the left) > input > menu controls > Menu Swap OK and Cancel Buttons [on]
->
+
+Download Assets
+
 > Main Menu(First Icon from the left) Online Updater -> Update Assets
 
 ## Download Some Cores
@@ -151,13 +153,13 @@ This is optional and you can come back to this later, but if you would like to s
 
 Cores I am currently using.  I'll swap these out later if I find better alternatives.
 
-> ATARI - 2600 (STELLA 2014)
-> Nintendo - Game Boy / Color (Gambatte)
-> Nintendo - Game Boy Advance (gbSP)
-> Nintendo - NES / Famicom (FCEUmm)
-> Nintendo - SNES / SFC (Snes9x - Current)
-> Sega - MS/MD/CD/32x (Genesis Plus GX)
-> Sony - PlayStation (PCSX ReARMed)
+> ATARI - 2600 (STELLA 2014)  
+> Nintendo - Game Boy / Color (Gambatte)  
+> Nintendo - Game Boy Advance (gbSP)  
+> Nintendo - NES / Famicom (FCEUmm)  
+> Nintendo - SNES / SFC (Snes9x - Current)  
+> Sega - MS/MD/CD/32x (Genesis Plus GX)  
+> Sony - PlayStation (PCSX ReARMed)  
 
 ## Add some games
 
