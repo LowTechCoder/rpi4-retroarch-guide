@@ -245,7 +245,7 @@ Settings > Latency > Use Second Instance for Run-Ahead > [off]
 
 We could just exit RetroArch to save settings, but lets make sure the global file gets saved after making these changes.  
 
-Main Menu > Save Current Configuration
+Main Menu > Configuration File > Save Current Configuration
 
 After turning Run-Ahead on globally, you'll need to turn it off for any console that can't handle it.  We'll use the Playstation as an example, and out of all the cores I use, this is the only one I need to turn off. This is also a good lesson on how to set settings for a single core, that will override the global settings you may set.
 
