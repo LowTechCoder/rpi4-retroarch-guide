@@ -208,7 +208,7 @@ Also, for audio, on the Raspberry Pi OS panel, there is a speaker icon you can c
 ## Playstation graphical improvements
 This is an optional change in RetroArch that could introduce some problems in some games, but for the games I play this is totally worth the tradeoff. Turning these on will improve the resolution and speed up the core.
 
-> Run a game > In that games menu > Options > Enhanced Resolution (Slow) > [on]
+> Run a game > In that games menu > Options > Enhanced Resolution (Slow) > [on]  
 > Run a game > In that games menu > Options > Enhanced Resolution (Speed Hack) > [on]
 
 
