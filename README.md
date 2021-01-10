@@ -177,7 +177,7 @@ After adding all your games, press the back button on your controller many times
 
 This next step is nice, but optional.  When you choose a game to play it will ask you which core you want to use.  That gets old fast, so lets set up the default core for every console.  
 
-> Settings > Playlists > Manage Playlists > [select a core]
+> Settings > Playlists > Manage Playlists > [select a playlist] > Default Core > [select a core]
 
 Now repeat that for each console core.
 
