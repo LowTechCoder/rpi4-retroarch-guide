@@ -119,7 +119,7 @@ Main Menu > Restart RetroArch
 
 Now you should be using XMB.  Lets do some more things in Retroarch.
 
-This will set RetroArch to start in fullscreen, and it also put RetroArch in fullscreen.  If you'd like to toggle fullscreen so you can see this document, press 'f' on the keyboard.
+This will make RetroArch start in fullscreen, and it also will set RetroArch in fullscreen right away.  If you'd like to toggle fullscreen so you can see this document, press 'f' on the keyboard.
 
 Settings(Gear Icon) > Video > Fullscreen Mode > Start in Fullscreen Mode > [on]
 
