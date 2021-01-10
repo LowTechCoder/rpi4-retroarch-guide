@@ -187,7 +187,7 @@ Lets save those settings.
 
 ## Play some games!
 
-If you'd like to toggle fullscreen mode do this in RetroArch or press 'f' on the keyboard.
+If you'd like to toggle fullscreen mode do this in RetroArch or press 'f' on the keyboard or do this:
 
 > Settings(Gear Icon) > Video > Fullscreen Mode > Start in Fullscreen Mode > [on]
 
