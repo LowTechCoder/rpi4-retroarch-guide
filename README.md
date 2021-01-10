@@ -196,12 +196,6 @@ In the top level menu of Retroarch, go right until you see some console icons.  
 ## Audio Issues
 If your headphone jack volume is to low
 
-## Playstation graphical improvements
-This is an optional change that could introduce some problems in some games, but for the games I play this is totally worth the tradeoff.  
-
-> Run a game > In that games menu > Options > Enhanced Resolution (Slow) > [on]
-> Run a game > In that games menu > Options > Enhanced Resolution (Speed Hack) > [on]
-
 In terminal type 
 ```
 alsamixer
@@ -209,6 +203,14 @@ alsamixer
 Select the headphone jack by pressing F6 on the keyboard, increase the level just below red levels by pressing up. Press escape to exit.
 
 Also, for audio, on the Raspberry Pi OS panel, there is a speaker icon you can click or right click on to adjust some volume related things.
+
+
+## Playstation graphical improvements
+This is an optional change in RetroArch that could introduce some problems in some games, but for the games I play this is totally worth the tradeoff. Turning these on will improve the resolution and speed up the core.
+
+> Run a game > In that games menu > Options > Enhanced Resolution (Slow) > [on]
+> Run a game > In that games menu > Options > Enhanced Resolution (Speed Hack) > [on]
+
 
 ## Auto Start and Shutdown RetroArch script
 I wrote some scripts that will help with autostarting and shutting down RetroArch.  I just quickly want to point out that there is probably a better
