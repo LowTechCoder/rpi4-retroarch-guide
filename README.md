@@ -191,6 +191,12 @@ In the top level menu of Retroarch, go right until you see some console icons.  
 ## Audio Issues
 If your headphone jack volume is to low
 
+## Playstation graphical improvements
+This is an optional change that could introduce some problems in some games, but for the games I play this is totally worth the tradeoff.  
+
+> Run a game > In that games menu > Options > Enhanced Resolution (Slow) > [on]
+> Run a game > In that games menu > Options > Enhanced Resolution (Speed Hack) > [on]
+
 In terminal type 
 ```
 alsamixer
