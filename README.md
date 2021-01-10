@@ -268,7 +268,7 @@ From my experience, setting this to 1 or 2 is ok for most games.  If you set it 
 
 > Settings > Latency > Use Second Instance for Run-Ahead > [off]
 
-We could just exit RetroArch to save settings, but lets make sure the global file gets saved after making these changes.  
+Save the RetroArch config.
 
 > Main Menu > Configuration File > Save Current Configuration
 
