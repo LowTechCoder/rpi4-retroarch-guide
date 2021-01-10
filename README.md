@@ -119,10 +119,6 @@ Restart Retroarch
 
 Now you should be using XMB.  Lets do some more things in Retroarch.
 
-This will make RetroArch start in fullscreen, and it also will set RetroArch in fullscreen right away.  If you'd like to toggle fullscreen so you can see this document, press 'f' on the keyboard.
-
-> Settings(Gear Icon) > Video > Fullscreen Mode > Start in Fullscreen Mode > [on]
-
 Hopefully your USB controller is mostly working, so you should be able to use that now, or you can continue using your keyboard to get around in XMB.  
 
 If your controller isn't working go to:
@@ -185,6 +181,10 @@ Lets save those settings.
 > Main Menu > Configuration File > Save Current Configuration
 
 ## Play some games!
+
+If you'd like to toggle fullscreen mode do this in RetroArch or press 'f' on the keyboard.
+
+> Settings(Gear Icon) > Video > Fullscreen Mode > Start in Fullscreen Mode > [on]
 
 In the top level menu of Retroarch, go right until you see some console icons.  Pick a game, click OK a couple more times to select the core, and play the game.
 
