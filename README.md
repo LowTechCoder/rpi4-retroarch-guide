@@ -199,9 +199,9 @@ Select the headphone jack by pressing F6 on the keyboard, increase the level jus
 
 Also, for audio, on the Raspberry Pi OS panel, there is a speaker icon you can click or right click on to adjust some volume related things.
 
-## Auto Start and Shutdown RetroArch
+## Auto Start and Shutdown RetroArch script
 I wrote some scripts that will help with autostarting and shutting down RetroArch.  I just quickly want to point out that there is probably a better
-way of doing this like using SystemD, but that never worked out for me, so I either don't know enough about it yet, or maybe it's behind on the Raspberry Pi OS. So lets do this with my scripts until I find a better way.  
+way of doing this like using SystemD, but that never worked out for me, lets just use my script for now.
 ```
 cd ~
 ```
@@ -241,7 +241,7 @@ Delete the paths in this file, and add a path to match your path on your thumbdr
 ```
 /media/pi/USBDRIVE/
 ```
-The autoscript we installed also made it possible to shutdown the Raspberry Pi from RetroArch XMB, but don't do this now!  Just letting you know for future reference.  It will work that way after the next time you restart the Raspberry Pi 4.
+The autoscript we installed also made it possible to shutdown the Raspberry Pi from RetroArch XMB, but don't do this now!  Just letting you know for future reference.  It will work that way after the next time you restart the Raspberry Pi 4. If you ever need to close RetroArch and use the Raspberry Pi OS desktop, then press 'f' on the keyboard and close the window.
 
 Main Menu > Quit RetroArch
 
