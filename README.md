@@ -171,7 +171,7 @@ Cores I am currently using.  I'll swap these out later if I find better alternat
 > Import Content(Big Plus Icon) > Scan Directory > [choose rom directory]
 
 If your having trouble finding them, make sure you have your USB drive plugged in, and restart the Pi 4.  Then
-select the 'Parent Directory' button until you see a directory called /media.  Select /media, then /pi, then your thumbdrive, and then your games you want to import.  I would recommend importing 1 gaming console at a time.
+select the 'Parent Directory' button until you see a directory called /media.  Select /media, then /pi, then your thumbdrive, and then your games you want to import.  I would recommend importing 1 gaming console at a time. If your usb drive doesn't show up in RetroArch a workaround I found was to open up the File Manager in Raspberry Pi OS and click on the usb drive.
 
 After adding all your games, press the back button on your controller many times to get back to the top level of the Retroarch menu.
 
