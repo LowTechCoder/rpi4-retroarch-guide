@@ -109,7 +109,7 @@ Change to XMB in retroarch.  You can use a mouse or keyboard arrow keys, backspa
 
 > Settings > Drivers > Menu > [xmb]
 
-RetroArch may be set up to save the config file when it quits.  This can cause some confusion if you ever want to edit the retroarch.cfg file while RetroArch is running, so lets disable that auto save feature, and remember to save the config in RetroArch after you make any changes.
+RetroArch may be set up to save the config file when it quits.  This can cause some confusion later when the auto start script is running and if your trying to edit the config and then reboot, it will overwrite that change that you just made, so lets disable the auto save on quit.
 
 > Settings > Configuration > Save Configuration on Quit > [off]
 
