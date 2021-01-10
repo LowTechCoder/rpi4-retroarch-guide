@@ -42,6 +42,8 @@ We have to reboot after installing snapd, but first lets do a change to the syst
 ```
 sudo raspi-config
 ```
+This interface can be a bit confusing at first.  Press up, down to select things on the list and then press left or right to select the button below the list, and then press enter to make the selection.  Do these this way:
+
 Advanced Options > Compositor > [no]
 
 Display Options > Composite Video > [no]
