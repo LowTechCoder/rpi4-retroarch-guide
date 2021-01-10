@@ -149,6 +149,8 @@ Download Assets
 
 ## Download Some Cores
 
+If the list of cores doesn't show up, try try again.  It will eventually.
+
 > Main Menu > Online Updater > Core Downloader > [choose cores here to download]
 
 Cores I am currently using.  I'll swap these out later if I find better alternatives.
