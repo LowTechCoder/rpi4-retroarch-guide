@@ -217,8 +217,7 @@ This next one may not be needed with the added power of the Raspberry Pi 4, but 
 
 
 ## Auto Start and Shutdown RetroArch script
-I wrote some scripts that will help with autostarting and shutting down RetroArch.  I just quickly want to point out that there is probably a better
-way of doing this like using SystemD, but that never worked out for me, lets just use my script for now.
+I wrote some scripts that will help with autostarting RetroArch, quiting RetroArch, and shutting down the Raspberry Pi. I just quickly want to point out that there is probably a better way of doing this like using SystemD, but that never worked out for me, lets just use my script for now.
 ```
 cd ~
 ```
@@ -258,9 +257,11 @@ Delete the paths in this file, and add a path to match your path on your thumbdr
 ```
 /media/pi/USBDRIVE/
 ```
-The autoscript we installed also made it possible to shutdown the Raspberry Pi from RetroArch XMB, but don't do this now!  Just letting you know for future reference.  It will work that way after the next time you restart the Raspberry Pi 4. If you ever need to close RetroArch and use the Raspberry Pi OS desktop, then press 'f' on the keyboard, but if you close the RetroArch window, the Raspberry Pi will shutdown.  I may come up with a better solution soon!
+After the next reboot of the Raspberry Pi, the autoscript we installed also made it possible to shutdown the Raspberry Pi from RetroArch XMB if you do 'Main Menu > Quit RetroArch', but don't do this now, because it won't work intil a reboot.  
 
-> Main Menu > Quit RetroArch
+If you ever need to close RetroArch and use the Raspberry Pi OS desktop, close RetroArch any way you like, and then you have 5 seconds to close the Terminal window before it shuts down the Raspberry Pi.  
+
+Another way you could do this is to press 'f' on the keyboard then close the Terminal window that is behind RetroArch.
 
 While playing a game if you notice a little lag from the time you press a button and when the character on the game moves, then you may want to turn on Run Ahead Mode.
 
