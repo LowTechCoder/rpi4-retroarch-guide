@@ -292,6 +292,7 @@ Let's recap. You now have:
 * RetroArch Auto config file backups that backs up once a day during boot, and overwrites that daily backup only if the config files change
 * 'f' key will toggle fullscreen
 * Main Menu > Quit RetroArch will shutdown your Raspberry Pi
+* To close RetroArch without shutting down the Raspberry Pi, quit RetroArch, and then you have 5 seconds to close the Terminal
 
 ## Known issues
 
