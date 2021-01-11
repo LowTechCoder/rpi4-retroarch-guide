@@ -161,6 +161,7 @@ Cores I am currently using.  I'll swap these out later if I find better alternat
 
 > ATARI - 2600 (STELLA 2014)  
 > Nintendo - Game Boy / Color (Gambatte)  
+> Nintendo - Game Boy Advance (VBA Next)  
 > Nintendo - NES / Famicom (FCEUmm)  
 > Nintendo - SNES / SFC (Snes9x - Current)  
 > Sega - MS/MD/CD/32x (Genesis Plus GX)  
@@ -275,13 +276,15 @@ Save the RetroArch config.
 
 > Main Menu > Configuration File > Save Current Configuration
 
-After turning Run-Ahead on globally, you'll need to turn it off for any console that can't handle it.  We'll use the Playstation as an example, and out of all the cores I use, this is the only one I need to turn off. This is also a good lesson on how to set settings for a single core, that will override the global settings you may set.
+After turning Run-Ahead on globally, you'll need to turn it off for any console that can't handle it.  We'll use the Playstation as an example, and out of all the cores I use, this is the only one I need to turn totally off. This is also a good lesson on how to set settings for a single core, that will override the global settings you may set.
 
 Start up a Playstion game and then: 
 
 > Sony - Playstation > Latency > Run-Ahead to Reduce Latency > [off]
 
 Now press the Back button until you see 'Overrides' in the menu, near to the bottom of the list.  Select 'Overrides' and select 'Save Core Overrides' to save those Run-Ahead settings only for the Playstation core.
+
+Another core you may have issues with is the GBA core.  You may need to turn run ahead mode down to 1 or totally off if you notice some strange audio or video stuttering.
 
 Let's recap. You now have:
 * RetroArch installed and set up
