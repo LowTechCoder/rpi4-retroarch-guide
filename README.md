@@ -205,16 +205,9 @@ Select the headphone jack by pressing F6 on the keyboard, increase the level jus
 
 Also, for audio, on the Raspberry Pi OS panel, there is a speaker icon you can click or right click on to adjust some volume related things.
 
-
 ## Playstation graphical improvements
-This is an optional change in RetroArch that could introduce some problems in some games, but for the games I play this is totally worth the tradeoff. Turning these on will improve the resolution and speed up the core.
 
-> Run a game > In that games menu > Options > Enhanced Resolution (Slow) > [on]
-
-This next one may not be needed with the added power of the Raspberry Pi 4, but keep it in mind if your game seems slow.  The biggest problem I run into this one is the save points in Tomb Raider are invisible if you turn this on.  Luckily RetroArch has save states you can use instead.
-
-> Run a game > In that games menu > Options > Enhanced Resolution (Speed Hack) > [on]
-
+https://github.com/LowTechCoder/rpi4-retroarch-cores-guide
 
 ## Auto Start and Shutdown RetroArch script
 I wrote some scripts that will help with autostarting RetroArch, quiting RetroArch, and shutting down the Raspberry Pi. I just quickly want to point out that there is probably a better way of doing this like using SystemD, but that never worked out for me, lets just use my script for now.
