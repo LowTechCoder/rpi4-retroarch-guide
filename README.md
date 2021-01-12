@@ -287,11 +287,14 @@ Let's recap. You now have:
 * Main Menu > Quit RetroArch will shutdown your Raspberry Pi
 * To close RetroArch without shutting down the Raspberry Pi, quit RetroArch, and then you have 5 seconds to close the Terminal
 
+## More Core tweaks
+
+https://github.com/LowTechCoder/rpi4-retroarch-cores-guide
+
 ## Known issues
 
 If you notice manually editing the retroarch.cfg file is losing your changes, you may have RetroArch set up to auto save on quit.  Read guide above to get a reminder on how to disable that.
 
 If you notice any issues with a core, it could be that you need to find BIOS files for that core. I'll let you google that for your self, since they aren't really needed in this guide and cores I've selected.
-
 
 Have fun! 
