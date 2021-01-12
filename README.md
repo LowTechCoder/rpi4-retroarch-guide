@@ -166,6 +166,11 @@ Cores I am currently using.  I'll swap these out later if I find better alternat
 > Nintendo - SNES / SFC (Snes9x - Current)  
 > Sega - MS/MD/CD/32x (Genesis Plus GX)  
 > Sony - PlayStation (PCSX ReARMed)  
+> ScummVM
+
+## Core tweaks
+
+https://github.com/LowTechCoder/rpi4-retroarch-cores-guide
 
 ## Add some games
 
