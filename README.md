@@ -131,17 +131,21 @@ If your controller isn't working go to:
 
 You may have to do this a couple times if you mess up, so don't forget you do have the keyboard if you lose control with your controller.
 
+If using Set All Controls is annoying, then you can manually select each button with the OK button, and then assign that button.
+
 This is optional and you can come back to this later, but if you would like to swap the OK and Cancel buttons. This can be tricky since your cancel/back button becomes the OK, so if you get hung up on this, use the keyboard's Enter and Backspace to accomplish this.
 
 > Settings(Second icon from the left) > input > menu controls > Menu Swap OK and Cancel Buttons [on]
 
-If you have a spare button on your controller you may want to asign a button that will pop up the XMB during gameplay:
+If you have a spare button on your controller you may want to asign a button that will pop up the XMB during gameplay.  Before you do this, I have a warning to you if you plan on using multiple different types of controllers.  If you set this Menu Toggle hotkey on your controller, and then switch controllers, you may find that this hotkey is set on a different button like the OK button.  If you want to keep things simple, then use 2 identical controllers, or use controllers that show up as an xbox 360.
 
 > Settings > Input > Hotkeys > Menu (Toggle) > [press the button]
 
 If you don't have a spare button for Menu Toggle, then do this to set a combo button press for the Menu Toggle:
 
 > Settings > input > Hotkeys > Menu Toggle Gamepad Combo > [start + select]
+
+One more thing about controllers.  If you plug in 2 controllers and the player 1 is now on the second controller, switch the controllers in the USB ports around on the Raspberry Pi, and reboot, and start Retroarch again.  Each USB port has specific assignments if there is more than 1 controller plugged in.  It goes from top to bottom, right to left.
 
 Now would be a good time to save the config.
 
