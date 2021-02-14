@@ -145,7 +145,7 @@ If you don't have a spare button for Menu Toggle, then do this to set a combo bu
 
 > Settings > input > Hotkeys > Menu Toggle Gamepad Combo > [start + select]
 
-One more thing about controllers.  If you plug in 2 controllers and the player 1 is now on the second controller, switch the controllers in the USB ports around on the Raspberry Pi, and reboot, and start Retroarch again.  Each USB port has specific assignments if there is more than 1 controller plugged in.  It goes from top to bottom, right to left.
+One more thing about controllers.  If you plug in 2 controllers and the player 1 is now on the second controller, switch the controllers in the USB ports on the Raspberry Pi, reboot, and start Retroarch again.  Each USB port has specific player assignments if there is more than 1 controller plugged in.  It goes from top to bottom, right to left.
 
 Now would be a good time to save the config.
 
