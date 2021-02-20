@@ -306,4 +306,9 @@ If you notice manually editing the retroarch.cfg file is losing your changes, yo
 
 If you notice any issues with a core, it could be that you need to find BIOS files for that core. I'll let you google that for your self, since they aren't really needed in this guide and cores I've selected.
 
+If you are annoyed by warnings in your terminal refering to a 'ld.so.preload' file, then you could empty the file like this, but you may want to just deal with the warnings since I don't know exactly what this is doing yet.
+```
+sudo echo "" > /etc/ld.so.preload
+```
+
 Have fun! 
