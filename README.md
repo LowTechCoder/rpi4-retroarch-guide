@@ -62,7 +62,7 @@ Install your favorite command line editor or if you like nano, then replace 'vim
 ```
 sudo apt install vim -y
 ```
-Enable exfat.  This is optional.  I like using an exfat external thumbdrive to store the Games.  I chose Exfat because it works on all OS's.
+Enable exfat.  This is optional.  I like using an exfat external thumbdrive to store the Games.  I chose Exfat because it works on all OS's. **This step may not be needed anymore!  Test your thumbdrive and see!**
 ```
 sudo apt install exfat-fuse -y
 ```
