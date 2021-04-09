@@ -265,6 +265,8 @@ If you ever need to close RetroArch and use the Raspberry Pi OS desktop, close R
 
 Another way you could do this is to press 'f' on the keyboard then close the Terminal window that is behind RetroArch.
 
+## Reduce Game Latency
+
 While playing a game if you notice a little lag from the time you press a button and when the character on the game moves, then you may want to turn on Run Ahead Mode.
 
 > Settings > Latency > Run-Ahead to Reduce Latency > [on]
