@@ -39,7 +39,7 @@ Make sure your USB controller is plugged in, and a USB thumbdrive if you plan on
 
 Use a Terminal to install snapd and retroarch:
 ```
-sudo apt install snapd -y
+sudo apt install snapd -y[fixme!]
 ```
 We have to reboot after installing snapd, but first lets do a change to the system that will help fix display issues while gaming.
 
@@ -58,16 +58,13 @@ After you select 'Finish', it will ask you to reboot.
 
 Now lets install RetroArch
 ```
-sudo snap install retroarch
+sudo snap install retroarch [fixme!]
 ```
 Install your favorite command line editor or if you like nano, then replace 'vim' with 'nano' throughout this guide.
 ```
 sudo apt install vim -y
 ```
-Enable exfat.  This is optional.  I like using an exfat external thumbdrive to store the Games.  I chose Exfat because it works on all OS's. **This step may not be needed anymore!  Test your thumbdrive and see!**
-```
-sudo apt install exfat-fuse -y
-```
+
 ## Optional Argon One case shutdown script
 
 I bought the Argon One case because it relocates all the inputs to the back of the device.  Heres the script that adjusts the fan and power button.
@@ -85,21 +82,21 @@ retroarch
 ```
 Now close RetroArch by closing out the window.  If your in full screen mode, press F, and then close out the window.
 
-The default set of downloadable cores are ok, but the Playstation core isn't the best, since it only offers lower resolutions. To fix this we need to open a terminal and edit this file and change the URL:
+The default set of downloadable cores are ok, but the Playstation core isn't the best, since it only offers lower resolutions. To fix this we need to open a terminal and edit this file and change the URL:[fixme!]
 
-The '427' may be a different number for you.  Also, use your favorite editor instead of vim. Also very important to remember to never edit this file when RetroArch is running, because we have RetroArch set to save to this file when RetroArch exits!
+The '427' may be a different number for you.  Also, use your favorite editor instead of vim. Also very important to remember to never edit this file when RetroArch is running, because we have RetroArch set to save to this file when RetroArch exits! [fixme!]
 ```
-vim snap/retroarch/427/.config/retroarch/retroarch.cfg
+vim snap/retroarch/427/.config/retroarch/retroarch.cfg [fixme!]
 ```
 Find the line that starts with:
 ```
-core_updater_buildbot_cores_url =
+core_updater_buildbot_cores_url = [fixme!]
 ```
 and change that line to:
 ```
-core_updater_buildbot_cores_url = "https://buildbot.libretro.com/nightly/linux/armv7-neon-hf/latest/"
+core_updater_buildbot_cores_url = "https://buildbot.libretro.com/nightly/linux/armv7-neon-hf/latest/" [fixme!]
 ```
-Save and close that file.  Also, there are other URL's you can use, if you'd like to experiment with an older set of cores. Go to that URL in a web browser and browse around!
+Save and close that file.  Also, there are other URL's you can use, if you'd like to experiment with an older set of cores. Go to that URL in a web browser and browse around! [fixme!]
 
 ## Configure Retroarch. 
 
