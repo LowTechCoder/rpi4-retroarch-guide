@@ -338,4 +338,6 @@ If you are annoyed by warnings in your terminal containing a 'ld.so.preload' fil
 sudo echo "" > /etc/ld.so.preload
 ```
 
+I am aware that the backup script I wrote will sometimes begin before the Pi has time to connect to the internet and get the correct date.  I will adjust that script soon.
+
 Have fun! 
