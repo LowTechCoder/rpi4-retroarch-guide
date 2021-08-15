@@ -59,7 +59,7 @@ sudo systemctl mask snapd.service
 If you ever do want to udpate a Snap you'll need to do this: (I haven't tested this yet.)
 ```
 sudo systemctl unmask snapd.service
-snap refrresh
+snap refresh
 ```
 
 ### Compile RetroArch
