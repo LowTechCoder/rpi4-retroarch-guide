@@ -1,8 +1,6 @@
 # Raspberry Pi 4/400 - RetroArch Guide
 
-# WARNING: THIS GUIDE DOESN'T WORK BECAUSE THE SNAPS INSTALL WILL AUTOUPDATE AND BREAK.  I'll update this guide very soon, but most likely I will be using a Flatpak to install retroarch, since it doesn't do auto updates.
-
-This Guide written in Jan 2021, and is meant to be used on a fresh install of the 32bit Raspberry Pi OS Desktop, on a Raspberry Pi 4.
+This Guide updated in Aug 2021, and is meant to be used on a fresh install of the 32bit Raspberry Pi OS Desktop, on a Raspberry Pi 4.
 
 I love RetroArch more than any other Raspberry Pi retro gaming solution, so I thought it would be nice to have a very focused guide about installing RetroArch on a Raspberry Pi 4/400 and some detailed info to help someone to understand how it all works.  Another reason I did this is because I had a very specific set of things I wanted my Retro Gaming Raspberry Pi to do, that didn't seem very possible on other retro gaming solutions.
 
@@ -22,7 +20,7 @@ Here are the basics of what we'll be doing in this guide:
 
 ## Boot up Raspberry Pi OS and lets get started
 
-First lets make sure the Raspberry Pi OS logs on automatically.
+First lets make sure the Raspberry Pi OS logs in automatically.
 
 > Desktop Menu > Preferences > Raspberry Pi Configuration > System > Auto Login > [Login as user 'pi']
 
@@ -37,11 +35,43 @@ After you are connected to the internet and have a web browser, I would recommen
 
 Make sure your USB controller is plugged in, and a USB thumbdrive if you plan on using the auto config backup script from this guide.
 
+## Install RetroARch
+
+Ok, I have some bad news.  Software evolves and guides like this sometimes won't work after a while, so I want to throw a few options your way for installing RetroArch.  That way if the first way doesn't work, you can move on to the next.
+
+### Snap
+The first way I installed RetroArch was to install a Snap.  This is by far the easiest way, but I believe it updated it's self one day without asking me and broke it's self.  So, if you do use this method and it works, you'll need a way to disable auto updates, which I will provide below.
+
 Use a Terminal to install snapd and retroarch:
 ```
-sudo apt install snapd -y[fixme!]
+sudo apt install snapd -y
 ```
-We have to reboot after installing snapd, but first lets do a change to the system that will help fix display issues while gaming.
+Reboot the Raspberry Pi 4
+
+Now lets install RetroArch
+```
+sudo snap install retroarch
+```
+Disable Snapd from auto updating.  This is new to me, and I hope it holds up forever, but we'll see, and I'll update this guide if it ever fails me.
+```
+sudo systemctl mask snapd.service
+```
+If you ever do want to udpate a Snap you'll need to do this: (I haven't tested this yet.)
+```
+sudo systemctl unmask snapd.service
+snap refrresh
+```
+
+### Compile RetroArch
+An alternative way to install RetroArch is to Compile it from source.  I found a great tutorial on how to do that here:
+https://gist.github.com/ematysek/fc01a47c7d34f0ca4dad41226c53ff6e
+
+### FlatPak
+Another way you could install RetroArch is a FlatPak.  I have tried this method, and it works, but it's extremely slow to install and seems to install a ton of things probably not needed.  You can explore this method your self.  If it seems to get better over time, I'll update this guide and show some examples.
+
+
+## More tweaks
+Lets do a change to the system that will help fix display issues while gaming.
 
 ```
 sudo raspi-config
@@ -56,10 +86,6 @@ This is optional, use this if your screen does something annoying when the scree
 
 After you select 'Finish', it will ask you to reboot.
 
-Now lets install RetroArch
-```
-sudo snap install retroarch [fixme!]
-```
 Install your favorite command line editor or if you like nano, then replace 'vim' with 'nano' throughout this guide.
 ```
 sudo apt install vim -y
@@ -82,21 +108,21 @@ retroarch
 ```
 Now close RetroArch by closing out the window.  If your in full screen mode, press F, and then close out the window.
 
-The default set of downloadable cores are ok, but the Playstation core isn't the best, since it only offers lower resolutions. To fix this we need to open a terminal and edit this file and change the URL:[fixme!]
+The default set of downloadable cores are ok, but the Playstation core isn't the best, since it only offers lower resolutions. To fix this we need to open a terminal and edit this file and change the URL.
 
-The '427' may be a different number for you.  Also, use your favorite editor instead of vim. Also very important to remember to never edit this file when RetroArch is running, because we have RetroArch set to save to this file when RetroArch exits! [fixme!]
+The '427' may be a different number for you.  Also, use your favorite editor instead of vim. Also very important to remember to never edit this file when RetroArch is running, because we have RetroArch set to save to this file when RetroArch exits! Also this entire path could look a lot different for you if you didn't get to use Snaps to install Retroarch.
 ```
-vim snap/retroarch/427/.config/retroarch/retroarch.cfg [fixme!]
+vim snap/retroarch/427/.config/retroarch/retroarch.cfg
 ```
 Find the line that starts with:
 ```
-core_updater_buildbot_cores_url = [fixme!]
+core_updater_buildbot_cores_url = 
 ```
 and change that line to:
 ```
-core_updater_buildbot_cores_url = "https://buildbot.libretro.com/nightly/linux/armv7-neon-hf/latest/" [fixme!]
+core_updater_buildbot_cores_url = "https://buildbot.libretro.com/nightly/linux/armv7-neon-hf/latest/"
 ```
-Save and close that file.  Also, there are other URL's you can use, if you'd like to experiment with an older set of cores. Go to that URL in a web browser and browse around! [fixme!]
+Save and close that file.  Also, there are other URL's you can use, if you'd like to experiment with an older set of cores. Go to that URL in a web browser and browse around!
 
 ## Configure Retroarch. 
 
