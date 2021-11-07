@@ -41,7 +41,7 @@ Ok, I have some bad news.  Software evolves and guides like this sometimes won't
 
 ### PiKISS
 PiKISS is a great way to get RetroArch and some of the more difficult packages installed on your Raspberry Pi.  It's now my first choice.
-Follow their instructions here, and you'll end up with RetroArch installed.
+Follow their instructions, and you'll end up with RetroArch installed.
 https://github.com/jmcerrejon/PiKISS
 
 ### Snap
