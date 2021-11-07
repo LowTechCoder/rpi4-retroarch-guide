@@ -39,8 +39,13 @@ Make sure your USB controller is plugged in, and a USB thumbdrive if you plan on
 
 Ok, I have some bad news.  Software evolves and guides like this sometimes won't work after a while, so I want to throw a few options your way for installing RetroArch.  That way if the first way doesn't work, you can move on to the next.
 
+### PiKISS
+PiKISS is a great way to get RetroArch and some of the more difficult packages installed on your Raspberry Pi.  It's now my first choice.
+Follow their instructions here, and you'll end up with RetroArch installed.
+https://github.com/jmcerrejon/PiKISS
+
 ### Snap
-The first way I installed RetroArch was to install a Snap.  This is by far the easiest way, but I believe it updated it's self one day without asking me and broke it's self.  So, if you do use this method and it works, you'll need a way to disable auto updates, which I will provide below.
+The first way I ever installed RetroArch was to install a Snap.  This is by far the easiest way, but I believe it updated it's self one day without asking me and broke it's self.  So, if you do use this method and it works, you'll need a way to disable auto updates, which I will provide below.
 
 Use a Terminal to install snapd and retroarch:
 ```
@@ -68,7 +73,6 @@ https://gist.github.com/ematysek/fc01a47c7d34f0ca4dad41226c53ff6e
 
 ### FlatPak
 Another way you could install RetroArch is a FlatPak.  I have tried this method, and it works, but it's extremely slow to install and seems to install a ton of things probably not needed.  You can explore this method your self.  If it seems to get better over time, I'll update this guide and show some examples.
-
 
 ## More tweaks
 Lets do a change to the system that will help fix display issues while gaming.
