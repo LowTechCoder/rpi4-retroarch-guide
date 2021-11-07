@@ -1,6 +1,6 @@
 # Raspberry Pi 4/400 - RetroArch Guide
 
-This Guide updated in Aug 2021, and is meant to be used on a fresh install of the 32bit Raspberry Pi OS Desktop, on a Raspberry Pi 4.
+This Guide updated in Nov 2021, and is meant to be used on a fresh install of the 32bit Raspberry Pi OS Desktop, on a Raspberry Pi 4.
 
 I love RetroArch more than any other Raspberry Pi retro gaming solution, so I thought it would be nice to have a very focused guide about installing RetroArch on a Raspberry Pi 4/400 and some detailed info to help someone to understand how it all works.  Another reason I did this is because I had a very specific set of things I wanted my Retro Gaming Raspberry Pi to do, that didn't seem very possible on other retro gaming solutions.
 
