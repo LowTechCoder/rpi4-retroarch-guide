@@ -95,16 +95,6 @@ Install your favorite command line editor or if you like nano, then replace 'vim
 sudo apt install vim -y
 ```
 
-## Optional Argon One case shutdown script
-
-I bought the Argon One case because it relocates all the inputs to the back of the device.  Heres the script that adjusts the fan and power button.
-
-https://github.com/okunze/Argon40-ArgonOne-Script
-
-Skip this if you don't have an Argon One Raspberry Pi 4 case.
-```
-curl https://download.argon40.com/argon1.sh | bash
-```
 ## Configure Retroarch Downloader
 Lets get the default config files for RetroArch created by running RetroArch, and then close it for now.  Since this is the first time running RetroArch, this may be a bit slow.  You'll also see some errors, but that's ok.
 ```
@@ -114,9 +104,9 @@ Now close RetroArch by closing out the window.  If your in full screen mode, pre
 
 The default set of downloadable cores are ok, but the Playstation core isn't the best, since it only offers lower resolutions. To fix this we need to open a terminal and edit this file and change the URL.
 
-The '427' may be a different number for you.  Also, use your favorite editor instead of vim. Also very important to remember to never edit this file when RetroArch is running, because we have RetroArch set to save to this file when RetroArch exits! Also this entire path could look a lot different for you if you didn't get to use Snaps to install Retroarch.
+Also, use your favorite editor instead of vim. Also very important to remember to never edit this file when RetroArch is running, because we have RetroArch set to save to this file when RetroArch exits! Also this entire path could look a lot different for you if you didn't get to use PiKISS to install Retroarch.
 ```
-vim snap/retroarch/427/.config/retroarch/retroarch.cfg
+vim .config/retroarch/retroarch.cfg
 ```
 Find the line that starts with:
 ```
