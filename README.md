@@ -249,17 +249,17 @@ Edit the file and see if it needs any changes to match your pi
 ```
 nano autostart.bash
 ```
-Change this line to match your usb drive directory you want your backup files to go in. If you wanted to not use a usb drive, you could just make the path in this line something like /home/pi/ and the auto config backup will just go in your home directory.
+Change this line to match your usb drive directory you want your backup files to go in.
 
-cd /media/pi/USBDRIVE/rasp_pi_retroarch_conf_backups/
+cd /media/pi/RA-DATA/rasp_pi_retroarch_conf_backups/
 
 ```
 cd ~/watch_for_dirs_to_exist/
 nano paths.conf
 ```
-Delete the paths in this file, and add a path to match your path on your thumbdrive. This will help the script detect if this USB drive is mounted and ready to go before it runs the backups.  Like above, if you wanted to not use a usb drive, you could just make the path in this line something like /home/pi/ and the auto config backup will just go in your home directory.
+Delete the paths in this file, and add a path to match your path on your thumbdrive. This will help the script detect if this USB drive is mounted and ready to go before it runs the backups.
 ```
-/media/pi/USBDRIVE/
+/media/pi/RA-DATA/
 ```
 After the next reboot of the Raspberry Pi, the autoscript we installed also made it possible to shutdown the Raspberry Pi from RetroArch XMB if you do 'Main Menu > Quit RetroArch', but don't do this now, because it won't work intil a reboot.  
 
@@ -312,4 +312,3 @@ If you notice any issues with a core, it could be that you need to find BIOS fil
 
 The backup script must have access to the internet to sync the proper date up.  If this doesn't happen, the backup script may not run if the backup has the same date as the last backup!
 
-H
