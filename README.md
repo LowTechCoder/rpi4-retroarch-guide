@@ -221,7 +221,7 @@ Also, for audio, on the Raspberry Pi OS panel, there is a speaker icon you can c
 https://github.com/LowTechCoder/rpi4-retroarch-cores-guide
 
 ## Auto Start and Shutdown RetroArch script
-I wrote some scripts that will help with autostarting RetroArch, quiting RetroArch, and shutting down the Raspberry Pi. I just quickly want to point out that there is probably a better way of doing this like using SystemD, but that never worked out for me, lets just use my script for now.
+I wrote some scripts that will help with autostarting RetroArch at boot, and shutting down the Raspberry Pi when RetroArch is closed with a gamepad. Basicaly the script will run at boot, look for your USB drive containing the games, and if it finds that, it will run RetroArch. After RetroArch closes, the script will backup your RetroArch config files and game saves to the USB drive, then shutdown your Raspberry Pi.
 ```
 cd ~
 ```
