@@ -80,6 +80,11 @@ retroarch
 ```
 Now close RetroArch by closing out the window.  If your in full screen mode, press F, and then close out the window.
 
+Before we go any further, I want to show you an optional step to take that will convert all nano editor commands in this guide into your favorite editor.  If you don't know what I mean, then skip this step. For this example, if you have neovim installed, you can use this.
+```
+alias nano='nvim'
+```
+
 The default set of downloadable cores are ok, but the Playstation core isn't the best, since it only offers lower resolutions. To fix this we need to open a terminal and edit this file and change the URL.
 
 It's very important to remember to never edit this file when RetroArch is running, because we have RetroArch set to save to this file when RetroArch exits! Also this entire path could look a lot different for you if you didn't get to use PiKISS to install Retroarch.
