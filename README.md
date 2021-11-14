@@ -47,7 +47,8 @@ https://github.com/jmcerrejon/PiKISS
 curl -sSL https://git.io/JfAPE | bash
 ```
 After installing PiKiss, use PiKISS to install RetroArch.  If PiKISS doesn't launch after you install it, you can find it in the Start Menu.
-> Start Menu > System Tools > PiKISS
+> Start Menu > System Tools > PiKISS 
+
 After PiKISS is open, you can find and install RetroArch here:
 > PiKISS > Emulation > RetroArch
 
