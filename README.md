@@ -52,35 +52,9 @@ After installing PiKiss, use PiKISS to install RetroArch.  If PiKISS doesn't lau
 After PiKISS is open, you can find and install RetroArch here:
 > PiKISS > Emulation > RetroArch
 
-### Method 2: Snap
-The first way I ever installed RetroArch was to install a Snap.  This is by far the easiest way, but I believe it updated it's self one day without asking me and broke it's self.  So, if you do use this method and it works, you'll need a way to disable auto updates, which I will provide below.
+For more ways of installing RetroArch look here for ideas, but I don't keep up with all these.
 
-Use a Terminal to install snapd and retroarch:
-```
-sudo apt install snapd -y
-```
-Reboot the Raspberry Pi 4
-
-Now lets install RetroArch
-```
-sudo snap install retroarch
-```
-Disable Snapd from auto updating.  This is new to me, and I hope it holds up forever, but we'll see, and I'll update this guide if it ever fails me.
-```
-sudo systemctl mask snapd.service
-```
-If you ever do want to udpate a Snap you'll need to do this: (I haven't tested this yet.)
-```
-sudo systemctl unmask snapd.service
-snap refresh
-```
-
-### Method 3: Compile RetroArch
-An alternative way to install RetroArch is to Compile it from source.  I found a great tutorial on how to do that here:
-https://gist.github.com/ematysek/fc01a47c7d34f0ca4dad41226c53ff6e
-
-### Method 4: FlatPak
-Another way you could install RetroArch is a FlatPak.  I have tried this method, and it works, but it's extremely slow to install and seems to install a ton of things probably not needed.  You can explore this method your self.  If it seems to get better over time, I'll update this guide and show some examples.
+https://github.com/LowTechCoder/retroarch-install-alt
 
 ## More tweaks
 Lets do a change to the system that will help fix display issues while gaming.
