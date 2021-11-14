@@ -73,11 +73,6 @@ This is optional, use this if your screen does something annoying when the scree
 
 After you select 'Finish', it will ask you to reboot.
 
-Install your favorite command line editor or if you like nano, then replace 'vim' with 'nano' throughout this guide.
-```
-sudo apt install vim -y
-```
-
 ## Configure Retroarch Downloader
 Lets get the default config files for RetroArch created by running RetroArch, and then close it for now.  Since this is the first time running RetroArch, this may be a bit slow.  You'll also see some errors, but that's ok.
 ```
@@ -87,9 +82,9 @@ Now close RetroArch by closing out the window.  If your in full screen mode, pre
 
 The default set of downloadable cores are ok, but the Playstation core isn't the best, since it only offers lower resolutions. To fix this we need to open a terminal and edit this file and change the URL.
 
-Also, use your favorite editor instead of vim. Also very important to remember to never edit this file when RetroArch is running, because we have RetroArch set to save to this file when RetroArch exits! Also this entire path could look a lot different for you if you didn't get to use PiKISS to install Retroarch.
+It's very important to remember to never edit this file when RetroArch is running, because we have RetroArch set to save to this file when RetroArch exits! Also this entire path could look a lot different for you if you didn't get to use PiKISS to install Retroarch.
 ```
-vim .config/retroarch/retroarch.cfg
+nano .config/retroarch/retroarch.cfg
 ```
 Find the line that starts with:
 ```
@@ -247,7 +242,7 @@ cd ~
 ```
 Edit the file and see if it needs any changes to match your pi
 ```
-vim autostart.bash
+nano autostart.bash
 ```
 Change this line to match your usb drive directory you want your backup files to go in. If you wanted to not use a usb drive, you could just make the path in this line something like /home/pi/ and the auto config backup will just go in your home directory.
 
@@ -255,7 +250,7 @@ cd /media/pi/USBDRIVE/rasp_pi_retroarch_conf_backups/
 
 ```
 cd ~/watch_for_dirs_to_exist/
-vim paths.conf
+nano paths.conf
 ```
 Delete the paths in this file, and add a path to match your path on your thumbdrive. This will help the script detect if this USB drive is mounted and ready to go before it runs the backups.  Like above, if you wanted to not use a usb drive, you could just make the path in this line something like /home/pi/ and the auto config backup will just go in your home directory.
 ```
@@ -312,4 +307,4 @@ If you notice any issues with a core, it could be that you need to find BIOS fil
 
 The backup script must have access to the internet to sync the proper date up.  If this doesn't happen, the backup script may not run if the backup has the same date as the last backup!
 
-Have fun! 
+H
