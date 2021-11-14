@@ -42,6 +42,7 @@ Ok, I have some bad news.  Software evolves and guides like this sometimes won't
 ### Method 1: PiKISS
 PiKISS is a great way to get RetroArch and some of the more difficult packages installed on your Raspberry Pi.  It's now my first choice.
 Follow their instructions to install PiKISS.
+
 https://github.com/jmcerrejon/PiKISS
 ```
 curl -sSL https://git.io/JfAPE | bash
@@ -52,7 +53,7 @@ After installing PiKiss, use PiKISS to install RetroArch.  If PiKISS doesn't lau
 After PiKISS is open, you can find and install RetroArch here:
 > PiKISS > Emulation > RetroArch
 
-For more ways of installing RetroArch look here for ideas, but I don't keep up with all these.
+## For more ways of installing RetroArch look here for ideas, but I don't keep up with all these.
 
 https://github.com/LowTechCoder/retroarch-install-alt
 
