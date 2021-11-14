@@ -53,7 +53,7 @@ After installing PiKiss, use PiKISS to install RetroArch.  If PiKISS doesn't lau
 After PiKISS is open, you can find and install RetroArch here:
 > PiKISS > Emulation > RetroArch
 
-## For more ways of installing RetroArch look here for ideas, but I don't keep up with all these.
+### For more ways of installing RetroArch look here for ideas, but I don't keep up with all these.
 
 https://github.com/LowTechCoder/retroarch-install-alt
 
