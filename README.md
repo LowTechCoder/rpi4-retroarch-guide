@@ -6,9 +6,9 @@ I love RetroArch more than any other Raspberry Pi retro gaming solution, so I th
 
 I wanted to:
 * Keep games separate from the OS on a different USB thumbdrive.  
-* On boot, auto backup RetroArch config files to the extra USB thumbdrive, and run some other scripts in the future, I haven't even thought of yet.
+* On shutdown, auto backup RetroArch config files to the extra USB thumbdrive, and run some other scripts in the future, I haven't even thought of yet.
 * 1 retro gaming GUI like RetroArch. Most others combine RetroArch and Emulationstation, which seems like overkill to me.
-* Edit config files and adding games without having to connect through the wifi.
+* Edit config files and adding games without having to connect to the Pi remotely.
 * Configure other things like Bluetooth or wifi through the Raspberry Pi OS.
 * Be able to close Retroarch and use the Raspberry Pi as a normal computer.
 
@@ -31,7 +31,7 @@ sudo apt update
 sudo apt full-upgrade -y
 ```
 
-After you are connected to the internet and have a web browser, I would recommend doing a git clone to this guide or bookmarking this page in your browser, so you'll have easy access to these instructions.
+After you are connected to the internet and have a web browser, I would recommend doing a git clone to this guide or bookmarking this page in your browser, so you'll have easy access to these instructions, after we do a couple reboots.
 
 Make sure your USB controller is plugged in, and a USB thumbdrive if you plan on using the auto config backup script from this guide.
 
@@ -41,8 +41,14 @@ Ok, I have some bad news.  Software evolves and guides like this sometimes won't
 
 ### Method 1: PiKISS
 PiKISS is a great way to get RetroArch and some of the more difficult packages installed on your Raspberry Pi.  It's now my first choice.
-Follow their instructions, and you'll end up with RetroArch installed.
+Follow their instructions to install PiKISS.
 https://github.com/jmcerrejon/PiKISS
+```
+curl -sSL https://git.io/JfAPE | bash
+```
+After installing PiKiss, use PiKISS to install RetroArch.  If PiKISS doesn't launch after you install it, you can find it in the Start Menu.
+> Start Menu > System Tools > PiKISS
+> PiKISS > Emulation > RetroArch
 
 ### Method 2: Snap
 The first way I ever installed RetroArch was to install a Snap.  This is by far the easiest way, but I believe it updated it's self one day without asking me and broke it's self.  So, if you do use this method and it works, you'll need a way to disable auto updates, which I will provide below.
