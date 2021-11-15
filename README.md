@@ -18,7 +18,7 @@ Here are the basics of what we'll be doing in this guide:
 * Configure RetroArch
 * Install a script to autostart Retroarch, shutdown the Rraspbery Pi, and backup RetroArch config files to the thumbdrive.
 
-Things I won't cover in the guide just yet:
+Things I won't cover in the guide for now:
 Installing N64, PSP or newer emulators.
 
 ## Boot up Raspberry Pi OS and lets get started
