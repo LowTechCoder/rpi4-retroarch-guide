@@ -248,11 +248,17 @@ This is my script that contains backup commands for RetroArch configs.  Dependin
 cp autostart.bash ../
 cd ~
 ```
+I named my usb thumbdrive 'RA-DATA'.  Anywhere you see this in this guide, you'll need to change it to what your usb thumbdrive is named.
+
+Create a directory on your external usb drive to hold all the retroArch config backups.
+```
+mkdir /media/pi/RA-DATA/rasp_pi_retroarch_conf_backups/
+```
 Edit the file and see if it needs any changes to match your pi
 ```
 nano autostart.bash
 ```
-Change this line to match your usb drive directory you want your backup files to go in.
+Change this 'RA-DATA' to match what your usb drive is named.
 
 cd /media/pi/RA-DATA/rasp_pi_retroarch_conf_backups/
 
