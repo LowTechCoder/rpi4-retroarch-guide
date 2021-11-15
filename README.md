@@ -1,12 +1,12 @@
 # Raspberry Pi 4/400 - RetroArch Guide
 
-This Guide updated in Nov 2021, and is meant to be used on a fresh install of the 32bit Raspberry Pi OS Desktop, on a Raspberry Pi 4.
+This Guide updated in Nov 2021 right after the Raspberry Pi OS got a big update, and is meant to be used on a fresh install of the 32bit Raspberry Pi OS Desktop, on a Raspberry Pi 4.
 
 I love RetroArch more than any other Raspberry Pi retro gaming solution, so I thought it would be nice to have a very focused guide about installing RetroArch on a Raspberry Pi 4/400 and some detailed info to help someone to understand how it all works.  Another reason I did this is because I had a very specific set of things I wanted my Retro Gaming Raspberry Pi to do, that didn't seem very possible on other retro gaming solutions.
 
 I wanted to:
-* Keep games separate from the OS on a different USB thumbdrive.  
-* On shutdown, auto backup RetroArch config files to the extra USB thumbdrive, and run some other scripts in the future, I haven't even thought of yet.
+* Keep games separate from the OS on a different USB drive.  
+* On shutdown, auto backup RetroArch config files to the extra USB drive, and run some other scripts in the future, I haven't even thought of yet.
 * 1 retro gaming GUI like RetroArch. Most others combine RetroArch and Emulationstation, which seems like overkill to me.
 * Edit config files and adding games without having to connect to the Pi remotely.
 * Configure other things like Bluetooth or wifi through the Raspberry Pi OS.
@@ -16,7 +16,7 @@ Here are the basics of what we'll be doing in this guide:
 
 * Install RetroArch
 * Configure RetroArch
-* Install a script to autostart Retroarch, shutdown the Rraspbery Pi, and backup RetroArch config files to the thumbdrive.
+* Install a script to autostart Retroarch, shutdown the Rraspbery Pi, and backup RetroArch config files to the drive.
 
 Things I won't cover in the guide for now:
 Installing N64, PSP or newer emulators.
@@ -36,7 +36,7 @@ sudo apt full-upgrade -y
 
 After you are connected to the internet and have a web browser, I would recommend doing a git clone to this guide or bookmarking this page in your browser, so you'll have easy access to these instructions, after we do a couple reboots.
 
-Make sure your USB controller is plugged in, and a USB thumbdrive if you plan on using the auto config backup script from this guide.
+Make sure your USB controller is plugged in, and a USB drive if you plan on using the auto config backup script from this guide.
 
 ## Install RetroARch
 
@@ -186,7 +186,7 @@ https://github.com/LowTechCoder/rpi4-retroarch-cores-guide
 > Import Content(Big Plus Icon) > Scan Directory > [choose rom directory]
 
 If your having trouble finding them, make sure you have your USB drive plugged in, and restart the Pi 4.  Then
-select the 'Parent Directory' button until you see a directory called /media.  Select /media, then /pi, then your thumbdrive, and then your games you want to import.  I would recommend importing 1 gaming console at a time. If your usb drive doesn't show up in RetroArch a workaround I found was to open up the File Manager in Raspberry Pi OS and click on the usb drive.
+select the 'Parent Directory' button until you see a directory called /media.  Select /media, then /pi, then your drive, and then your games you want to import.  I would recommend importing 1 gaming console at a time. If your USB drive doesn't show up in RetroArch a workaround I found was to open up the File Manager in Raspberry Pi OS and click on the USB drive.
 
 After adding all your games, press the back button on your controller many times to get back to the top level of the Retroarch menu.
 
@@ -248,9 +248,9 @@ This is my script that contains backup commands for RetroArch configs.  Dependin
 cp autostart.bash ../
 cd ~
 ```
-I named my usb thumbdrive 'RA-DATA'.  Anywhere you see this in this guide, you'll need to change it to what your usb thumbdrive is named.
+I named my USB drive 'RA-DATA'.  Anywhere you see this in this guide, you'll need to change it to what your USB drive is named.
 
-Create a directory on your external usb drive to hold all the retroArch config backups.
+Create a directory on your USB drive to hold all the retroArch config backups.
 ```
 mkdir /media/pi/RA-DATA/rasp_pi_retroarch_conf_backups/
 ```
@@ -258,7 +258,7 @@ Edit the file and see if it needs any changes to match your pi
 ```
 nano autostart.bash
 ```
-Change this 'RA-DATA' to match what your usb drive is named.
+Change this 'RA-DATA' to match what your USB drive is named.
 
 cd /media/pi/RA-DATA/rasp_pi_retroarch_conf_backups/
 
@@ -266,7 +266,7 @@ cd /media/pi/RA-DATA/rasp_pi_retroarch_conf_backups/
 cd ~/watch_for_dirs_to_exist/
 nano paths.conf
 ```
-Delete the paths in this file, and add a path to match your path on your thumbdrive. This will help the script detect if this USB drive is mounted and ready to go before it runs the backups.
+Delete the paths in this file, and add a path to match your path on your drive. This will help the script detect if this USB drive is mounted and ready to go before it runs the backups.
 ```
 /media/pi/RA-DATA/
 ```
@@ -320,4 +320,3 @@ If you notice manually editing the retroarch.cfg file is losing your changes, yo
 If you notice any issues with a core, it could be that you need to find BIOS files for that core. I'll let you google that for your self, since they aren't really needed in this guide and cores I've selected.
 
 The backup script must have access to the internet to sync the proper date up.  If this doesn't happen, the backup script may not run if the backup has the same date as the last backup!
-
