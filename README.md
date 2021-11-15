@@ -217,7 +217,7 @@ alsamixer
 ```
 Select the headphone jack by pressing F6 on the keyboard, increase the level just below red levels by pressing up. Press escape to exit.
 
-Also, for audio, on the Raspberry Pi OS panel, there is a speaker icon you can click or right click on to adjust some volume related things.
+Also, for audio, on the Raspberry Pi OS panel, there is a speaker icon you can left or right click on to adjust some volume related things.
 
 ## Playstation graphical improvements
 
