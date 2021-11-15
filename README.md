@@ -156,13 +156,13 @@ Now would be a good time to save the config.
 
 > Main Menu > Configuration File > Save Current Configuration
 
-Download Assets
+Update Assets
 
 > Main Menu(First Icon from the left) > Online Updater > Update Assets
 
 ## Download Some Cores
 
-If the list of cores doesn't show up, try try again.  It will eventually.
+If the list of cores doesn't show up, try try again.  It will eventually.  Also if you used PiKISS you will already have tons of cores installed. Even so, I like to re-install all of my favorite cores to make sure they are pulled from the core_updater_buildbot_cores_url we set earlier.
 
 > Main Menu > Online Updater > Core Downloader > [choose cores here to download]
 
@@ -174,8 +174,8 @@ Cores I am currently using.  I'll swap these out later if I find better alternat
 > Nintendo - NES / Famicom (FCEUmm)  
 > Nintendo - SNES / SFC (Snes9x - Current)  
 > Sega - MS/MD/CD/32x (Genesis Plus GX)  
-> Sony - PlayStation (PCSX ReARMed)  
 > ScummVM
+> Sony - PlayStation (PCSX ReARMed)  
 
 ## Core tweaks
 
