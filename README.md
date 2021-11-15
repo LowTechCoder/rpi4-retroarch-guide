@@ -6,7 +6,7 @@ I love RetroArch more than any other Raspberry Pi retro gaming solution, so I th
 
 I wanted to:
 * Keep games separate from the OS on a different USB drive.  
-* On shutdown, auto backup RetroArch config files to the extra USB drive, and run some other scripts in the future, I haven't even thought of yet.
+* On shutdown, auto backup RetroArch config files to a USB drive, and run some other scripts in the future, I haven't even thought of yet.
 * 1 retro gaming GUI like RetroArch. Most others combine RetroArch and Emulationstation, which seems like overkill to me.
 * Edit config files and adding games without having to connect to the Pi remotely.
 * Configure other things like Bluetooth or wifi through the Raspberry Pi OS.
