@@ -38,6 +38,14 @@ After you are connected to the internet and have a web browser, I would recommen
 
 Make sure your USB controller is plugged in, and a USB drive if you plan on using the auto config backup script from this guide.
 
+## Got 4K?
+
+Are you using a screen with more pixels than 1080p? You'll get way faster speeds from RetroArch if you set the resolution at 1080p.
+
+>Start Menu > Preferences > Screen Configuration
+
+Now, right click on the screen to see the resolution and Frequency to 1920x1080 and 60.00Hz
+
 ## Install RetroARch
 
 Ok, I have some bad news.  Software evolves and guides like this sometimes won't work after a while, so I want to throw a few options your way for installing RetroArch.  That way if the first method doesn't work, you can move on to the next.
