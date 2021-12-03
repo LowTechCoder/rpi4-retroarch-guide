@@ -44,7 +44,7 @@ Are you using a screen with more pixels than 1080p? You'll get way faster speeds
 
 >Start Menu > Preferences > Screen Configuration
 
-Now, right click on the screen to see the resolution and Frequency to 1920x1080 and 60.00Hz
+Now, right click on the screen to see the Resolution and Frequency to 1920x1080 and 60.00Hz
 
 ## Install RetroARch
 
